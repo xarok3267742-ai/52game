@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Цветной Квартал app icon">
+  <rect width="512" height="512" fill="#17242E"/>
+  <g opacity="0.08" fill="none" stroke="#F7F6F0" stroke-width="6">
+    <path d="M72 128H440"/>
+    <path d="M72 256H440"/>
+    <path d="M72 384H440"/>
+    <path d="M128 72V440"/>
+    <path d="M256 72V440"/>
+    <path d="M384 72V440"/>
+  </g>
+  <rect x="83" y="83" width="346" height="346" rx="56" fill="#F7F6F0" opacity="0.10"/>
+  <rect x="96" y="96" width="142" height="142" rx="32" fill="#2BB3A3"/>
+  <rect x="274" y="96" width="142" height="142" rx="32" fill="#F2B84B"/>
+  <rect x="96" y="274" width="142" height="142" rx="32" fill="#E85D75"/>
+  <rect x="274" y="274" width="142" height="142" rx="32" fill="#6C7AE0"/>
+  <rect x="124" y="124" width="80" height="24" rx="12" fill="#FFFFFF" opacity="0.24"/>
+</svg>

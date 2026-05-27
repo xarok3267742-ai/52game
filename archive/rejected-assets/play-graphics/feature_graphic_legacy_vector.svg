@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500" role="img" aria-label="Цветной Квартал feature graphic">
+  <rect width="1024" height="500" fill="#F7F6F0"/>
+  <g opacity="0.28" stroke="#E2E0D7" stroke-width="2">
+    <path d="M0 72H1024M0 144H1024M0 216H1024M0 288H1024M0 360H1024M0 432H1024"/>
+    <path d="M72 0V500M144 0V500M216 0V500M288 0V500M360 0V500M432 0V500M504 0V500M576 0V500M648 0V500M720 0V500M792 0V500M864 0V500M936 0V500"/>
+  </g>
+  <g transform="translate(66 94)">
+    <text x="0" y="54" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#17242E">Цветной Квартал</text>
+    <text x="0" y="104" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5E6872">Offline-головоломка на пару минут</text>
+    <g transform="translate(0 158)">
+      <rect x="0" y="0" width="170" height="52" rx="8" fill="#17242E"/>
+      <text x="85" y="34" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">36 уровней</text>
+    </g>
+    <g transform="translate(190 158)">
+      <rect x="0" y="0" width="196" height="52" rx="8" fill="#FFFFFF" stroke="#E2E0D7"/>
+      <text x="98" y="34" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#17242E">без интернета</text>
+    </g>
+  </g>
+  <g transform="translate(594 70)">
+    <rect x="0" y="0" width="360" height="360" rx="18" fill="#FFFFFF" stroke="#E2E0D7"/>
+    <g transform="translate(24 24)">
+      <rect x="0" y="0" width="56" height="56" rx="8" fill="#2BB3A3"/>
+      <rect x="64" y="0" width="56" height="56" rx="8" fill="#2BB3A3"/>
+      <rect x="128" y="0" width="56" height="56" rx="8" fill="#F2B84B"/>
+      <rect x="192" y="0" width="56" height="56" rx="8" fill="#F2B84B"/>
+      <rect x="256" y="0" width="56" height="56" rx="8" fill="#E85D75"/>
+      <rect x="0" y="64" width="56" height="56" rx="8" fill="#75C978"/>
+      <rect x="64" y="64" width="56" height="56" rx="8" fill="#2BB3A3"/>
+      <rect x="128" y="64" width="56" height="56" rx="8" fill="#F2B84B"/>
+      <rect x="192" y="64" width="56" height="56" rx="8" fill="#E85D75"/>
+      <rect x="256" y="64" width="56" height="56" rx="8" fill="#E85D75"/>
+      <rect x="0" y="128" width="56" height="56" rx="8" fill="#75C978"/>
+      <rect x="64" y="128" width="56" height="56" rx="8" fill="#75C978"/>
+      <rect x="128" y="128" width="56" height="56" rx="8" fill="#6C7AE0"/>
+      <rect x="192" y="128" width="56" height="56" rx="8" fill="#E85D75"/>
+      <rect x="256" y="128" width="56" height="56" rx="8" fill="#F2B84B"/>
+      <rect x="0" y="192" width="56" height="56" rx="8" fill="#6C7AE0"/>
+      <rect x="64" y="192" width="56" height="56" rx="8" fill="#75C978"/>
+      <rect x="128" y="192" width="56" height="56" rx="8" fill="#6C7AE0"/>
+      <rect x="192" y="192" width="56" height="56" rx="8" fill="#6C7AE0"/>
+      <rect x="256" y="192" width="56" height="56" rx="8" fill="#F2B84B"/>
+      <rect x="0" y="256" width="56" height="56" rx="8" fill="#6C7AE0"/>
+      <rect x="64" y="256" width="56" height="56" rx="8" fill="#E85D75"/>
+      <rect x="128" y="256" width="56" height="56" rx="8" fill="#E85D75"/>
+      <rect x="192" y="256" width="56" height="56" rx="8" fill="#6C7AE0"/>
+      <rect x="256" y="256" width="56" height="56" rx="8" fill="#2BB3A3"/>
+    </g>
+  </g>
+  <g transform="translate(592 454)">
+    <circle cx="0" cy="0" r="18" fill="#2BB3A3"/>
+    <circle cx="50" cy="0" r="18" fill="#F2B84B"/>
+    <circle cx="100" cy="0" r="18" fill="#E85D75"/>
+    <circle cx="150" cy="0" r="18" fill="#75C978"/>
+    <circle cx="200" cy="0" r="18" fill="#6C7AE0"/>
+  </g>
+</svg>

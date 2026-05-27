@@ -1,0 +1,1 @@
+Starting: Intent { cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity }

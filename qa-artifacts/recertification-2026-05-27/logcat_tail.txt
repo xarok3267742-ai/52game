@@ -1,0 +1,710 @@
+--------- beginning of main
+05-27 12:11:36.629   875   875 D CarrierSvcBindHelper: No carrier app for: 0
+05-27 12:11:36.632   549  1839 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+05-27 12:11:36.634  1258  1505 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package: flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+05-27 12:11:36.635  1258  1505 D MediaProvider: Deleted 0 Android/media items belonging to ru.cisgame.colorquarter.debug on /data/user/0/com.android.providers.media.module/databases/external.db
+05-27 12:11:36.637   941   941 D PersistedStoragePackageUninstalledReceiver: Received android.intent.action.PACKAGE_DATA_CLEARED for ru.cisgame.colorquarter.debug for u0
+05-27 12:11:36.637   782   782 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+05-27 12:11:36.637   782   782 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+05-27 12:11:36.637  1258  1505 D MediaGrants: Removed 0 media_grants for 0 user for [ru.cisgame.colorquarter.debug, ru.cisgame.colorquarter.debug]. Reason: Package orphaned
+05-27 12:11:36.637   782   782 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+05-27 12:11:36.638  1258  1505 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package: flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+05-27 12:11:36.648  1878  1889 W oid.documentsui: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/MtpService/MtpService.apk' with 1 weak references
+05-27 12:11:36.648  1878  1889 W oid.documentsui: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk' with 1 weak references
+05-27 12:11:36.648  1878  1889 W oid.documentsui: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.mediaprovider/priv-app/MediaProvider@AE3A.240806.019/MediaProvider.apk' with 1 weak references
+05-27 12:11:36.648  1878  1889 W oid.documentsui: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DownloadProvider/DownloadProvider.apk' with 1 weak references
+--------- beginning of system
+05-27 12:11:36.679   782   865 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#6) android.os.BinderProxy@512844d@0
+05-27 12:11:36.681   549   571 V WindowManager: Finish Transition (#6): created at 05-27 12:11:36.080 collect-started=0.082ms request-sent=0.9ms started=57.172ms ready=57.164ms sent=225.564ms finished=600.523ms
+05-27 12:11:36.681   549   564 E IPCThreadState: Binder transaction failure. id: 79325, BR_*: 29189, error: -22 (Invalid argument)
+05-27 12:11:36.681   549   564 W ActivityManager: pid 549 system sent binder code 7 with flags 1 to frozen apps and got error -32
+05-27 12:11:36.681   549   564 W WindowManager: Exception thrown during dispatchAppVisibility Window{345c2ba u0 ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity EXITING}
+05-27 12:11:36.681   549   564 W WindowManager: android.os.DeadObjectException
+05-27 12:11:36.681   549   564 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+05-27 12:11:36.681   549   564 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+05-27 12:11:36.681   549   564 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:553)
+05-27 12:11:36.681   549   564 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3253)
+05-27 12:11:36.681   549   564 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1289)
+05-27 12:11:36.681   549   564 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:403)
+05-27 12:11:36.681   549   564 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:7166)
+05-27 12:11:36.681   549   564 W WindowManager: 	at com.android.server.wm.ActivityRecord.postApplyAnimation(ActivityRecord.java:5881)
+05-27 12:11:36.681   549   564 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5823)
+05-27 12:11:36.681   549   564 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1286)
+05-27 12:11:36.681   549   564 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:937)
+05-27 12:11:36.681   549   564 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:494)
+05-27 12:11:36.681   549   564 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:289)
+05-27 12:11:36.681   549   564 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:204)
+05-27 12:11:36.681   549   564 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1500)
+05-27 12:11:36.681   549   564 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1444)
+05-27 12:11:36.681   549   564 W Process : Unable to open /proc/2159/status
+05-27 12:11:36.684   782   865 V WindowManagerShell: Track 0 became idle
+05-27 12:11:36.684   782   865 V WindowManagerShell: All active transition animations finished
+05-27 12:11:36.685  1104  1104 I TopTaskTracker: onTaskRemoved: taskId=18
+05-27 12:11:36.685  1104  1104 I TopTaskTracker: onTaskRemoved: taskId=18
+05-27 12:11:36.698   549  1011 W UserManagerService: Requested status bar icon for non-badged user 0
+05-27 12:11:36.699   549  1011 W UserManagerService: Requested status bar icon for non-badged user 0
+05-27 12:11:36.707   549   741 D ShortcutService: Saving package item com.android.launcher3 to /data/system_ce/0/shortcut_service/launchers/com.android.launcher30.xml
+05-27 12:11:36.729   406   406 E BpTransactionCompletedListener: Failed to transact (-32)
+05-27 12:11:36.739   549  1011 W ActivityTaskManager: callingPackage for (uid=2000, pid=2364) has no WPC
+05-27 12:11:36.740   549  1011 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+05-27 12:11:36.741   549  1011 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10148, packageName = null, attributionTag = null, token = android.os.Binder@be284ca, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-27 12:11:36.741   549  1011 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+05-27 12:11:36.741   549  1011 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+05-27 12:11:36.743   549  1011 V SplashScreenExceptionList: SplashScreen checking exception for package ru.cisgame.colorquarter.debug (target sdk:35) -> false
+05-27 12:11:36.743   549  1011 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+05-27 12:11:36.744  1104  1104 W SplitSelectStateCtor: Missing session instanceIds
+05-27 12:11:36.744  1104  1104 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+05-27 12:11:36.744   782   865 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=294
+05-27 12:11:36.744   549   574 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10148, packageName = null, attributionTag = null, token = android.os.Binder@be284ca, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-27 12:11:36.744   782   865 V WindowManagerShell: Transition requested (#7): android.os.BinderProxy@e87f8be TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=19 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity } baseActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} topActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} origActivity=null realActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} numActivities=1 lastActiveTime=173558 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@ea2fd1f} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{97f686c ru.cisgame.colorquarter.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 7 }
+05-27 12:11:36.745   549   564 D CompatChangeReporter: Compat change id reported: 309578419; UID 10148; state: ENABLED
+05-27 12:11:36.747   782   948 D SplashScreenView: Build android.window.SplashScreenView{f617117 V.E...... ......ID 0,0-0,0}
+05-27 12:11:36.747   782   948 D SplashScreenView: Icon: view: android.widget.ImageView{bbc5904 V.ED..... ......I. 0,0-0,0 #1020504 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@f694eed size: 504
+05-27 12:11:36.747   782   948 D SplashScreenView: Branding: view: android.view.View{e310122 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-27 12:11:36.748  1104  1104 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=19, baseIntent=Intent { flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity }
+05-27 12:11:36.748  1104  1104 W FrameTracker: Missed App frame:UNKNOWN: 88, 15858, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1104 W FrameTracker: Missed SF frame:UNKNOWN: 88, 15858, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1104 W FrameTracker: Missing HWUI jank callback for vsyncId: 15858, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1104 W FrameTracker: Missed SF frame:UNKNOWN: 80, 15915, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1104 W FrameTracker: Missing HWUI jank callback for vsyncId: 15915, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1104 W FrameTracker: Missed SF frame:UNKNOWN: 80, 15937, 33640537, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1104 W FrameTracker: Missed SF frame:UNKNOWN: 80, 15966, 19729663, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1104 W FrameTracker: Missed SF frame:UNKNOWN: 80, 15988, 21849330, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1104 W FrameTracker: Missed SF frame:UNKNOWN: 80, 16010, 19946623, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1104 W FrameTracker: Missed SF frame:UNKNOWN: 80, 16025, 20243165, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1104 W FrameTracker: Missed SF frame:UNKNOWN: 80, 16040, 33547041, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-27 12:11:36.749  1104  1124 V PerfettoTrigger: Not triggering com.android.telemetry.interaction-jank-monitor-78 - not enough time since last trigger
+05-27 12:11:36.761   360   360 D Zygote  : Forked child process 2367
+05-27 12:11:36.761   549   582 I ActivityManager: Start proc 2367:ru.cisgame.colorquarter.debug/u0a148 for next-top-activity {ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity}
+05-27 12:11:36.762   406   406 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-27 12:11:36.765   549   822 D CoreBackPreview: Window{bf9c069 u0 Splash Screen ru.cisgame.colorquarter.debug}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@b2b4e1c, mPriority=0, mIsAnimationCallback=false}
+05-27 12:11:36.765  2367  2367 I orquarter.debug: Late-enabling -Xcheck:jni
+05-27 12:11:36.777   549   571 V WindowManager: Sent Transition (#7) createdAt=05-27 12:11:36.741 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=19 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity } baseActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} topActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} origActivity=null realActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} numActivities=1 lastActiveTime=173558 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{daaf1ab Task{1d23284 #19 type=standard A=10148:ru.cisgame.colorquarter.debug}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{cad3008 ru.cisgame.colorquarter.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 7 }
+05-27 12:11:36.777   549   571 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-27 12:11:36.777   782  1174 V WindowManagerShell: onTransitionReady(transaction=2357937046019)
+05-27 12:11:36.777   549   571 V WindowManager:     info={id=7 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+05-27 12:11:36.777   549   571 V WindowManager:         {WCT{RemoteToken{daaf1ab Task{1d23284 #19 type=standard A=10148:ru.cisgame.colorquarter.debug}}} m=OPEN f=NONE leash=Surface(name=Task=19)/@0x8e4fa25 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+05-27 12:11:36.777   549   571 V WindowManager:         {WCT{RemoteToken{9132c71 Task{2b932ed #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x522bb00 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+05-27 12:11:36.777   549   571 V WindowManager:     ]}
+05-27 12:11:36.777   782   865 V WindowManagerShell: onTransitionReady (#7) android.os.BinderProxy@e87f8be: {id=7 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@b0a5c46} m=OPEN f=NONE leash=Surface(name=Task=19)/@0x1cba2b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@faace07} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x5368e88 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+05-27 12:11:36.777   782   865 V WindowManagerShell: Playing animation for (#7) android.os.BinderProxy@e87f8be@0
+05-27 12:11:36.777   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@6de58d9
+05-27 12:11:36.777   782   865 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@c94229e
+05-27 12:11:36.777   782   865 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@1d3117f
+05-27 12:11:36.777   782   865 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@d6d554c
+05-27 12:11:36.777   782   865 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@c52a995
+05-27 12:11:36.777   782   865 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-27 12:11:36.777   782   865 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@d1bcaaa
+05-27 12:11:36.777   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@611469b
+05-27 12:11:36.778   782   865 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=7 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@b0a5c46} m=OPEN f=NONE leash=Surface(name=Task=19)/@0x1cba2b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@faace07} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x5368e88 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+05-27 12:11:36.778   782   865 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@fc07a38, appThread = android.app.IApplicationThread$Stub$Proxy@9814a11, debugName = QuickstepLaunchHome }}
+05-27 12:11:36.778   782   865 V WindowManagerShell:  Delegate animation for (#7) to null
+05-27 12:11:36.778   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@ac3e776
+05-27 12:11:36.778   782   865 V WindowManagerShell: start default transition animation, info = {id=7 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@b0a5c46} m=OPEN f=NONE leash=Surface(name=Task=19)/@0x1cba2b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@faace07} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x5368e88 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+05-27 12:11:36.778   782   865 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@6ea0b34 animAttr=0x13 type=OPEN isEntrance=false
+05-27 12:11:36.778   782   865 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@f48cd5d animAttr=0x12 type=OPEN isEntrance=true
+05-27 12:11:36.778   782   865 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@ac3e776
+05-27 12:11:36.779  2367  2367 I orquarter.debug: Using CollectorTypeCMC GC.
+05-27 12:11:36.782   549  1839 W UserManagerService: Requested status bar icon for non-badged user 0
+05-27 12:11:36.801   411   451 I adbd    : jdwp connection from 2367
+05-27 12:11:36.805  2367  2367 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-27 12:11:36.823  2367  2367 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+05-27 12:11:36.823  2367  2367 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+05-27 12:11:36.823  2367  2367 W ziparchive: Unable to open '/data/app/~~6JjOqC8bbtG-yEEH-ZwT0g==/ru.cisgame.colorquarter.debug-qN_qXCZ0HjnkZ5vgidO21A==/base.dm': No such file or directory
+05-27 12:11:36.823  2367  2367 W ziparchive: Unable to open '/data/app/~~6JjOqC8bbtG-yEEH-ZwT0g==/ru.cisgame.colorquarter.debug-qN_qXCZ0HjnkZ5vgidO21A==/base.dm': No such file or directory
+05-27 12:11:37.026  2367  2367 D nativeloader: Configuring clns-7 for other apk /data/app/~~6JjOqC8bbtG-yEEH-ZwT0g==/ru.cisgame.colorquarter.debug-qN_qXCZ0HjnkZ5vgidO21A==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~6JjOqC8bbtG-yEEH-ZwT0g==/ru.cisgame.colorquarter.debug-qN_qXCZ0HjnkZ5vgidO21A==/lib/arm64:/data/app/~~6JjOqC8bbtG-yEEH-ZwT0g==/ru.cisgame.colorquarter.debug-qN_qXCZ0HjnkZ5vgidO21A==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/ru.cisgame.colorquarter.debug
+05-27 12:11:37.027  2367  2367 D CompatChangeReporter: Compat change id reported: 202956589; UID 10148; state: ENABLED
+05-27 12:11:37.036  2367  2367 V GraphicsEnvironment: Currently set values for:
+05-27 12:11:37.036  2367  2367 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-27 12:11:37.036  2367  2367 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-27 12:11:37.036  2367  2367 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+05-27 12:11:37.036  2367  2367 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+05-27 12:11:37.056  2367  2367 D CompatChangeReporter: Compat change id reported: 279646685; UID 10148; state: ENABLED
+05-27 12:11:37.061   549  1839 D CompatChangeReporter: Compat change id reported: 324203798; UID 10148; state: ENABLED
+05-27 12:11:37.062   782   865 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#7) android.os.BinderProxy@e87f8be@0
+05-27 12:11:37.064   549   571 V WindowManager: Finish Transition (#7): created at 05-27 12:11:36.741 collect-started=0.019ms request-sent=2.199ms started=7.071ms ready=34.594ms sent=35.456ms finished=322.853ms
+05-27 12:11:37.065   782   865 V WindowManagerShell: Track 0 became idle
+05-27 12:11:37.065   782   865 V WindowManagerShell: All active transition animations finished
+05-27 12:11:37.065  1104  1104 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+05-27 12:11:37.066   549  1839 W UserManagerService: Requested status bar icon for non-badged user 0
+05-27 12:11:37.067   549  1839 W UserManagerService: Requested status bar icon for non-badged user 0
+05-27 12:11:37.092  2367  2367 D CompatChangeReporter: Compat change id reported: 309578419; UID 10148; state: ENABLED
+05-27 12:11:37.129  2367  2367 W HWUI    : Unknown dataspace 0
+05-27 12:11:37.295  2367  2367 W orquarter.debug: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+05-27 12:11:37.297  2367  2372 I orquarter.debug: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+05-27 12:11:37.397   549   822 D CoreBackPreview: Window{dc4a84e u0 ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5c6fb5a, mPriority=0, mIsAnimationCallback=false}
+05-27 12:11:37.446  2367  2382 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+05-27 12:11:37.447  2367  2382 I EGL_emulation: Opening libGLESv2_emulation.so
+05-27 12:11:37.451  2367  2382 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-27 12:11:37.452  2367  2382 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-27 12:11:37.461   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-27 12:11:37.461  2367  2382 I Gralloc4: mapper 4.x is not supported
+--------- beginning of kernel
+05-27 12:11:37.462   162   162 I servicemanager: Caller(pid=2367,uid=10148,sid=u:r:untrusted_app:s0:c148,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-27 12:11:37.519   549   571 W ziparchive: Unable to open '/data/app/~~6JjOqC8bbtG-yEEH-ZwT0g==/ru.cisgame.colorquarter.debug-qN_qXCZ0HjnkZ5vgidO21A==/base.dm': No such file or directory
+05-27 12:11:37.521   549   571 I ActivityTaskManager: Displayed ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity for user 0: +779ms
+05-27 12:11:37.523  1104  1104 D BaseDepthController: setSurface:
+05-27 12:11:37.523  1104  1104 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-27 12:11:37.523  1104  1104 D BaseDepthController: 	mSurface: null
+05-27 12:11:37.523  1104  1104 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+05-27 12:11:37.524  1104  1104 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+05-27 12:11:37.524  1104  1104 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:453)
+05-27 12:11:37.524  1104  1104 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:444)
+05-27 12:11:37.524  1104  1104 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(StatefulActivity.java:119)
+05-27 12:11:37.524  1104  1104 D StatsLog: LAUNCHER_ONSTOP
+05-27 12:11:37.525   549  1839 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+05-27 12:11:37.542   359   428 I netd    : tetherGetStats() -> {[]} <0.34ms>
+05-27 12:11:37.550   549   660 I ImeTracker: ru.cisgame.colorquarter.debug:6c02f174: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+05-27 12:11:37.550   549   660 I ImeTracker: ru.cisgame.colorquarter.debug:6c02f174: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-27 12:11:37.883   782   942 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a020d6e
+05-27 12:11:37.883   549   822 D CoreBackPreview: Window{bf9c069 u0 Splash Screen ru.cisgame.colorquarter.debug EXITING}: Setting back callback null
+05-27 12:11:37.883   549  1839 W InputManager-JNI: Input channel object 'bf9c069 Splash Screen ru.cisgame.colorquarter.debug (client)' was disposed without first being removed with the input manager!
+05-27 12:11:37.934   782   942 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 16809, 5091575, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-27 12:11:37.934   782   942 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 16838, 3878617, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-27 12:11:37.934   782   942 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 16919, 2954995, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-27 12:11:37.934   782   942 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 16949, 2266913, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-27 12:11:37.934   782   942 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 17069, 2463044, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-27 12:11:37.934   782   942 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 17129, 2545130, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-27 12:11:37.934   782   915 V PerfettoTrigger: Not triggering com.android.telemetry.interaction-jank-monitor-39 - not enough time since last trigger
+05-27 12:11:39.816  2394  2394 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-27 12:11:39.817  2394  2394 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-27 12:11:39.826   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-27 12:11:39.826  2394  2395 I Gralloc4: mapper 4.x is not supported
+05-27 12:11:39.827   162   162 I servicemanager: Caller(pid=2394,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-27 12:11:40.049  2398  2398 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 12:11:40.051  2398  2398 I AndroidRuntime: Using default boot image
+05-27 12:11:40.051  2398  2398 I AndroidRuntime: Leaving lock profiling enabled
+05-27 12:11:40.052  2398  2398 I app_process: Core platform API reporting enabled, enforcing=false
+05-27 12:11:40.052  2398  2398 I app_process: Using CollectorTypeCMC GC.
+05-27 12:11:40.103  2398  2398 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-27 12:11:40.107  2398  2398 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:11:40.107  2398  2398 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-27 12:11:40.107  2398  2398 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-27 12:11:40.108  2398  2398 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:11:40.108  2398  2398 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:11:40.109  2398  2398 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-27 12:11:40.109  2398  2398 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-27 12:11:40.118  2398  2398 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-27 12:11:40.118  2398  2398 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 12:11:40.120  2398  2398 D UiAutomationConnection: Created on user UserHandle{0}
+05-27 12:11:40.120  2398  2398 I UiAutomation: Initialized for user 0 on display 0
+05-27 12:11:40.120  2398  2398 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-27 12:11:40.121   549  1839 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-27 12:11:40.121   549  1839 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-27 12:11:40.122   549  1839 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:11:40.123   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-27 12:11:40.123  2398  2409 V UiAutomation: Init UiAutomation@bf3619b[id=7, displayId=0, flags=0]
+05-27 12:11:40.124   549  1011 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:11:40.127   941  1079 D AccessibilitySourceService: enabled a11y services count 0
+05-27 12:11:40.127   941  1079 D AccessibilitySourceService: a11y source sending 0 issue to sc
+05-27 12:11:40.128   549  1839 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+05-27 12:11:40.189   549  1254 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+05-27 12:11:41.174  2398  2398 W AccessibilityNodeInfoDumper: Fetch time: 40ms
+05-27 12:11:41.176   549  2328 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:11:41.176   549  2328 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-27 12:11:41.176  2398  2398 D AndroidRuntime: Shutting down VM
+05-27 12:11:41.176   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-27 12:11:42.713  2367  2412 D ProfileInstaller: Installing profile for ru.cisgame.colorquarter.debug
+05-27 12:11:46.182   549   639 D ActivityManager: freezing 1636 com.android.providers.calendar
+05-27 12:11:46.182   549   639 D ActivityManager: freezing 1259 android.process.acore
+05-27 12:11:46.183   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-27 12:11:46.183   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-27 12:11:46.183   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10060} in 0ms
+05-27 12:11:46.183   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-27 12:11:46.183   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-27 12:11:46.183   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10064} in 0ms
+05-27 12:11:46.635   549   765 D OomAdjuster: Not killing cached processes
+05-27 12:11:46.644   549   639 D ActivityManager: freezing 1878 com.android.documentsui
+05-27 12:11:46.649   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-27 12:11:46.650   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-27 12:11:46.650   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10069} in 0ms
+05-27 12:11:46.658   359   428 I netd    : tetherGetStats() -> {[]} <0.61ms>
+05-27 12:11:47.093   186  2347 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+05-27 12:11:51.166   436   453 D AudioAnalytics: expiring previous audio state after 3600 seconds.
+05-27 12:11:52.022   549  2328 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{network{118}  handle{510211837965}  ni{MOBILE[HSPA] CONNECTING extra: fast.t-mobile.com} created=2026-05-27T09:11:52.022Z Score(Policies :  ; KeepConnected : 0)   lp{{LinkAddresses: [ ] DnsAddresses: [ ] Domains: null MTU: 0 Routes: [ ]}}  nc{[ Transports: CELLULAR Capabilities: MMS&SUPL&IA&XCAP&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=14Kbps LinkDnBandwidth>=14Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> SubscriptionIds: {1} UnderlyingNetworks: Null]}  factorySerialNumber=4}
+05-27 12:11:52.023   359   428 I netd    : getFwmarkForNetwork(118) -> {MarkMaskParcel{mark: 118, mask: 65535}} <0.00ms>
+05-27 12:11:52.023   549  2328 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1332 android.content.Context.sendBroadcastMultiplePermissions:2468 android.content.Context.sendBroadcastMultiplePermissions:2456 com.android.server.TelephonyRegistry.broadcastDataConnectionStateChanged:3916 com.android.server.TelephonyRegistry.notifyDataConnectionForSubscriber:2228 
+05-27 12:11:52.023   549   689 E WifiDataStall: onDataConnectionStateChanged unexpected State: 1
+05-27 12:11:52.023   549   689 E MboOceController: onDataConnectionStateChanged unexpected State: 1
+05-27 12:11:52.026   549   696 D ConnectivityService: [118 CELLULAR] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to CONNECTING
+05-27 12:11:52.027   864  2413 D NetworkMonitor/118: checkAndRenewResourceConfig: update captive portal https urls to [https://www.google.com/generate_204]
+05-27 12:11:52.027   864  2413 D NetworkMonitor/118: checkAndRenewResourceConfig: update captive portal http urls to [http://connectivitycheck.gstatic.com/generate_204]
+05-27 12:11:52.027   864  2413 D NetworkMonitor/118: checkAndRenewResourceConfig: update captive portal fallback urls to[http://www.google.com/gen_204, http://play.googleapis.com/generate_204]
+05-27 12:11:52.027   864  2413 D NetworkMonitor: Starting on network 118 with capport HTTPS URL [https://www.google.com/generate_204] and HTTP URL [http://connectivitycheck.gstatic.com/generate_204]
+05-27 12:11:52.029   549  2328 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1332 android.content.Context.sendBroadcastMultiplePermissions:2468 android.content.Context.sendBroadcastMultiplePermissions:2456 com.android.server.TelephonyRegistry.broadcastDataConnectionStateChanged:3916 com.android.server.TelephonyRegistry.notifyDataConnectionForSubscriber:2228 
+05-27 12:11:52.030   549   696 D ConnectivityService: [118 CELLULAR] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to DISCONNECTED
+05-27 12:11:52.030   549   696 D ConnectivityService: [118 CELLULAR] disconnected, was satisfying 0
+05-27 12:11:52.030   549   696 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 12:11:52.050   359   428 I netd    : tetherGetStats() -> {[]} <0.40ms>
+05-27 12:11:52.050   549   696 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 12:11:52.051   359   428 I netd    : setNetworkAllowlist([]) <0.00ms>
+05-27 12:11:52.051   549   696 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 0]
+05-27 12:11:56.645   549   639 D ActivityManager: freezing 941 com.android.permissioncontroller
+05-27 12:11:56.646   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-27 12:11:56.646   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-27 12:11:56.646   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10143} in 0ms
+05-27 12:11:57.072  2367  2367 D CompatChangeReporter: Compat change id reported: 270674727; UID 10148; state: ENABLED
+05-27 12:11:57.362  2367  2382 D EGL_emulation: app_time_stats: avg=9922.78ms min=3634.20ms max=16211.36ms count=2
+05-27 12:11:59.107  2422  2422 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-27 12:11:59.107  2422  2422 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-27 12:11:59.151   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-27 12:11:59.151  2422  2423 I Gralloc4: mapper 4.x is not supported
+05-27 12:11:59.151   162   162 I servicemanager: Caller(pid=2422,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-27 12:11:59.354  2426  2426 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 12:11:59.355  2426  2426 I AndroidRuntime: Using default boot image
+05-27 12:11:59.355  2426  2426 I AndroidRuntime: Leaving lock profiling enabled
+05-27 12:11:59.356  2426  2426 I app_process: Core platform API reporting enabled, enforcing=false
+05-27 12:11:59.356  2426  2426 I app_process: Using CollectorTypeCMC GC.
+05-27 12:11:59.382  2426  2426 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-27 12:11:59.385  2426  2426 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:11:59.385  2426  2426 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-27 12:11:59.385  2426  2426 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-27 12:11:59.386  2426  2426 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:11:59.386  2426  2426 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:11:59.387  2426  2426 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-27 12:11:59.387  2426  2426 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-27 12:11:59.394  2426  2426 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-27 12:11:59.394  2426  2426 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 12:11:59.396  2426  2426 D UiAutomationConnection: Created on user UserHandle{0}
+05-27 12:11:59.396  2426  2426 I UiAutomation: Initialized for user 0 on display 0
+05-27 12:11:59.396  2426  2426 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-27 12:11:59.396   549   563 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-27 12:11:59.396   549   563 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-27 12:11:59.397   549   563 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:11:59.398   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:11:59.398   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:11:59.398   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:11:59.398   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:11:59.398   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:11:59.398   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:11:59.398  2426  2437 V UiAutomation: Init UiAutomation@d9dd746[id=8, displayId=0, flags=0]
+05-27 12:11:59.399   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-27 12:11:59.401   549   563 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:11:59.401   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:11:59.401   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:11:59.401   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:11:59.401   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:00.017   782   985 D EGL_emulation: app_time_stats: avg=1170.55ms min=10.73ms max=23069.76ms count=20
+05-27 12:12:00.439  2426  2426 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@9323; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(73, 2360 - 333, 2368); boundsInWindow: Rect(73, 2360 - 333, 2368); packageName: ru.cisgame.colorquarter.debug; className: android.widget.TextView; text: Северный двор; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null]; isTextSelectable: false
+05-27 12:12:00.441  2426  2426 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@93dd; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(411, 2360 - 670, 2368); boundsInWindow: Rect(411, 2360 - 670, 2368); packageName: ru.cisgame.colorquarter.debug; className: android.widget.TextView; text: Утренняя линия; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null]; isTextSelectable: false
+05-27 12:12:00.442  2426  2426 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@9497; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(748, 2360 - 1007, 2368); boundsInWindow: Rect(748, 2360 - 1007, 2368); packageName: ru.cisgame.colorquarter.debug; className: android.widget.TextView; text: Теплый бульвар; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null]; isTextSelectable: false
+05-27 12:12:00.443  2426  2426 W AccessibilityNodeInfoDumper: Fetch time: 40ms
+05-27 12:12:00.445   549   563 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:00.445   549   563 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-27 12:12:00.445   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:00.445   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:00.445   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:00.445   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:00.445   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:00.445   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:00.445   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-27 12:12:00.447  2426  2426 D AndroidRuntime: Shutting down VM
+05-27 12:12:06.215   549   631 D OomAdjuster: Not killing cached processes
+05-27 12:12:11.838   782   985 D EGL_emulation: app_time_stats: avg=11820.43ms min=11820.43ms max=11820.43ms count=1
+05-27 12:12:12.362  2367  2367 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+05-27 12:12:12.362  2367  2367 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+05-27 12:12:12.422  2367  2382 D EGL_emulation: app_time_stats: avg=15060.00ms min=15060.00ms max=15060.00ms count=1
+05-27 12:12:14.371  2447  2447 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-27 12:12:14.372  2447  2447 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-27 12:12:14.382   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-27 12:12:14.382  2447  2448 I Gralloc4: mapper 4.x is not supported
+05-27 12:12:14.383   162   162 I servicemanager: Caller(pid=2447,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-27 12:12:14.569  2451  2451 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 12:12:14.571  2451  2451 I AndroidRuntime: Using default boot image
+05-27 12:12:14.571  2451  2451 I AndroidRuntime: Leaving lock profiling enabled
+05-27 12:12:14.572  2451  2451 I app_process: Core platform API reporting enabled, enforcing=false
+05-27 12:12:14.572  2451  2451 I app_process: Using CollectorTypeCMC GC.
+05-27 12:12:14.600  2451  2451 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-27 12:12:14.605  2451  2451 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:14.605  2451  2451 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-27 12:12:14.606  2451  2451 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-27 12:12:14.606  2451  2451 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:14.607  2451  2451 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:14.608  2451  2451 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-27 12:12:14.609  2451  2451 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-27 12:12:14.618  2451  2451 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-27 12:12:14.618  2451  2451 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 12:12:14.620  2451  2451 D UiAutomationConnection: Created on user UserHandle{0}
+05-27 12:12:14.620  2451  2451 I UiAutomation: Initialized for user 0 on display 0
+05-27 12:12:14.620  2451  2451 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-27 12:12:14.621   549   563 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-27 12:12:14.621   549   563 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-27 12:12:14.622   549   563 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:14.623   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:14.623   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:14.623   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:14.623  2451  2462 V UiAutomation: Init UiAutomation@e16f0cd[id=9, displayId=0, flags=0]
+05-27 12:12:14.624   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:14.624   549   563 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:14.625   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:14.625   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:14.625   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:14.625   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:14.626   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:14.626   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:14.626   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-27 12:12:15.671  2451  2451 W AccessibilityNodeInfoDumper: Fetch time: 40ms
+05-27 12:12:15.673   549   563 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:15.673   549   563 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-27 12:12:15.673   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:15.673   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:15.673   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:15.673   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:15.674   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:15.674   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:15.674  2451  2451 D AndroidRuntime: Shutting down VM
+05-27 12:12:15.674   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-27 12:12:16.266   549   639 D ActivityManager: freezing 1358 com.android.keychain
+05-27 12:12:16.267   549   639 D ActivityManager: freezing 881 com.android.settings
+05-27 12:12:16.267   549   639 D ActivityManager: freezing 1779 com.android.localtransport
+05-27 12:12:16.268   549   639 D ActivityManager: freezing 1576 com.android.dynsystem:dynsystem
+05-27 12:12:16.268   549   639 D ActivityManager: freezing 1560 com.android.dynsystem
+05-27 12:12:16.268   549   639 D ActivityManager: freezing 1401 com.android.DeviceAsWebcam
+05-27 12:12:31.850  2367  2382 D EGL_emulation: app_time_stats: avg=19427.09ms min=19427.09ms max=19427.09ms count=1
+05-27 12:12:32.041   549   564 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{network{119}  handle{514506805261}  ni{MOBILE[HSPA] CONNECTING extra: fast.t-mobile.com} created=2026-05-27T09:12:32.041Z Score(Policies :  ; KeepConnected : 0)   lp{{LinkAddresses: [ ] DnsAddresses: [ ] Domains: null MTU: 0 Routes: [ ]}}  nc{[ Transports: CELLULAR Capabilities: MMS&SUPL&IA&XCAP&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=14Kbps LinkDnBandwidth>=14Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> SubscriptionIds: {1} UnderlyingNetworks: Null]}  factorySerialNumber=4}
+05-27 12:12:32.043   549   564 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1332 android.content.Context.sendBroadcastMultiplePermissions:2468 android.content.Context.sendBroadcastMultiplePermissions:2456 com.android.server.TelephonyRegistry.broadcastDataConnectionStateChanged:3916 com.android.server.TelephonyRegistry.notifyDataConnectionForSubscriber:2228 
+05-27 12:12:32.043   549   689 E MboOceController: onDataConnectionStateChanged unexpected State: 1
+05-27 12:12:32.043   549   689 E WifiDataStall: onDataConnectionStateChanged unexpected State: 1
+05-27 12:12:32.044   359   428 I netd    : getFwmarkForNetwork(119) -> {MarkMaskParcel{mark: 119, mask: 65535}} <0.01ms>
+05-27 12:12:32.048   549   696 D ConnectivityService: [119 CELLULAR] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to CONNECTING
+05-27 12:12:32.049   864  2470 D NetworkMonitor/119: checkAndRenewResourceConfig: update captive portal https urls to [https://www.google.com/generate_204]
+05-27 12:12:32.049   864  2470 D NetworkMonitor/119: checkAndRenewResourceConfig: update captive portal http urls to [http://connectivitycheck.gstatic.com/generate_204]
+05-27 12:12:32.049   864  2470 D NetworkMonitor/119: checkAndRenewResourceConfig: update captive portal fallback urls to[http://www.google.com/gen_204, http://play.googleapis.com/generate_204]
+05-27 12:12:32.049   864  2470 D NetworkMonitor: Starting on network 119 with capport HTTPS URL [https://www.google.com/generate_204] and HTTP URL [http://connectivitycheck.gstatic.com/generate_204]
+05-27 12:12:32.050   549  1839 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1332 android.content.Context.sendBroadcastMultiplePermissions:2468 android.content.Context.sendBroadcastMultiplePermissions:2456 com.android.server.TelephonyRegistry.broadcastDataConnectionStateChanged:3916 com.android.server.TelephonyRegistry.notifyDataConnectionForSubscriber:2228 
+05-27 12:12:32.051   549   696 D ConnectivityService: [119 CELLULAR] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to DISCONNECTED
+05-27 12:12:32.051   549   696 D ConnectivityService: [119 CELLULAR] disconnected, was satisfying 0
+05-27 12:12:32.054   549   696 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 12:12:32.085   359   428 I netd    : tetherGetStats() -> {[]} <1.75ms>
+05-27 12:12:32.087   549   696 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 12:12:32.088   359   428 I netd    : setNetworkAllowlist([]) <0.01ms>
+05-27 12:12:32.088   549   696 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 0]
+05-27 12:12:32.792  2473  2473 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-27 12:12:32.792  2473  2473 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-27 12:12:32.798   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-27 12:12:32.798  2473  2474 I Gralloc4: mapper 4.x is not supported
+05-27 12:12:32.799   162   162 I servicemanager: Caller(pid=2473,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-27 12:12:33.029  2477  2477 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 12:12:33.033  2477  2477 I AndroidRuntime: Using default boot image
+05-27 12:12:33.033  2477  2477 I AndroidRuntime: Leaving lock profiling enabled
+05-27 12:12:33.035  2477  2477 I app_process: Core platform API reporting enabled, enforcing=false
+05-27 12:12:33.035  2477  2477 I app_process: Using CollectorTypeCMC GC.
+05-27 12:12:33.098  2477  2477 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-27 12:12:33.106  2477  2477 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:33.106  2477  2477 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-27 12:12:33.106  2477  2477 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-27 12:12:33.106  2477  2477 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:33.107  2477  2477 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:33.109  2477  2477 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-27 12:12:33.109  2477  2477 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-27 12:12:33.121  2477  2477 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-27 12:12:33.122  2477  2477 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 12:12:33.124  2477  2477 D UiAutomationConnection: Created on user UserHandle{0}
+05-27 12:12:33.125  2477  2477 I UiAutomation: Initialized for user 0 on display 0
+05-27 12:12:33.125  2477  2477 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-27 12:12:33.127   549   822 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-27 12:12:33.127   549   822 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-27 12:12:33.132   549   822 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:33.138   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.138   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.138   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.139  2477  2488 V UiAutomation: Init UiAutomation@fc16678[id=10, displayId=0, flags=0]
+05-27 12:12:33.139   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.139   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.139   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.141   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.141   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.141   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.141   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-27 12:12:33.144   549   613 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:33.145   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.145   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.145   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.145   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.145   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:33.145   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:34.188  2477  2477 W AccessibilityNodeInfoDumper: Fetch time: 35ms
+05-27 12:12:34.190   549   563 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:34.190   549   563 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-27 12:12:34.190   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:34.190   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:34.190   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:34.190   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:34.190   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:34.190   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:34.191  2477  2477 D AndroidRuntime: Shutting down VM
+05-27 12:12:34.192   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:34.192   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:34.192   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:34.192   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-27 12:12:39.749  2522  2522 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-27 12:12:39.749  2522  2522 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-27 12:12:39.765   162   162 I servicemanager: Caller(pid=2522,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-27 12:12:39.764   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-27 12:12:39.765  2522  2523 I Gralloc4: mapper 4.x is not supported
+05-27 12:12:39.972  2526  2526 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 12:12:39.974  2526  2526 I AndroidRuntime: Using default boot image
+05-27 12:12:39.974  2526  2526 I AndroidRuntime: Leaving lock profiling enabled
+05-27 12:12:39.975  2526  2526 I app_process: Core platform API reporting enabled, enforcing=false
+05-27 12:12:39.975  2526  2526 I app_process: Using CollectorTypeCMC GC.
+05-27 12:12:40.004  2526  2526 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-27 12:12:40.009  2526  2526 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:40.009  2526  2526 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-27 12:12:40.009  2526  2526 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-27 12:12:40.009  2526  2526 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:40.010  2526  2526 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:40.011  2526  2526 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-27 12:12:40.011  2526  2526 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-27 12:12:40.020  2526  2526 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-27 12:12:40.020  2526  2526 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 12:12:40.022  2526  2526 D UiAutomationConnection: Created on user UserHandle{0}
+05-27 12:12:40.022  2526  2526 I UiAutomation: Initialized for user 0 on display 0
+05-27 12:12:40.022  2526  2526 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-27 12:12:40.023   549  2328 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-27 12:12:40.023   549  2328 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-27 12:12:40.023   549  2328 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:40.024   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.024   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.024   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.024  2526  2537 V UiAutomation: Init UiAutomation@98b70ae[id=11, displayId=0, flags=0]
+05-27 12:12:40.025   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.025   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.025   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.025   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.025   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.025   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.026   549  2328 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:40.027   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-27 12:12:40.028   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.028   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.028   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.028   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.028   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:40.028   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:41.069  2526  2526 W AccessibilityNodeInfoDumper: Fetch time: 37ms
+05-27 12:12:41.071   549   564 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:41.071   549   564 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-27 12:12:41.071   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:41.071   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:41.071   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:41.071   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:41.071   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:41.071   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:41.071   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:41.071   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:41.071   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:41.071   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-27 12:12:41.073  2526  2526 D AndroidRuntime: Shutting down VM
+05-27 12:12:54.756  2367  2367 W orquarter.debug: Accessing hidden method Landroid/view/ViewTreeObserver;->dispatchOnScrollChanged()V (unsupported, reflection, allowed)
+05-27 12:12:54.823  2367  2382 D EGL_emulation: app_time_stats: avg=2540.99ms min=1.35ms max=22825.36ms count=9
+05-27 12:12:56.158  2546  2546 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 12:12:56.162  2546  2546 I AndroidRuntime: Using default boot image
+05-27 12:12:56.163  2546  2546 I AndroidRuntime: Leaving lock profiling enabled
+05-27 12:12:56.164  2546  2546 I app_process: Core platform API reporting enabled, enforcing=false
+05-27 12:12:56.164  2546  2546 I app_process: Using CollectorTypeCMC GC.
+05-27 12:12:56.218  2546  2546 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-27 12:12:56.224  2546  2546 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:56.225  2546  2546 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-27 12:12:56.225  2546  2546 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-27 12:12:56.226  2546  2546 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:56.226  2546  2546 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:12:56.228  2546  2546 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-27 12:12:56.228  2546  2546 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-27 12:12:56.241  2546  2546 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-27 12:12:56.241  2546  2546 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 12:12:56.244  2546  2546 D UiAutomationConnection: Created on user UserHandle{0}
+05-27 12:12:56.244  2546  2546 I UiAutomation: Initialized for user 0 on display 0
+05-27 12:12:56.244  2546  2546 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-27 12:12:56.247   549  1011 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-27 12:12:56.247   549  1011 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-27 12:12:56.249   549  1011 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:56.250   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.250   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.250   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.251  2546  2557 V UiAutomation: Init UiAutomation@29d3847[id=12, displayId=0, flags=0]
+05-27 12:12:56.251   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.251   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.251   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.251   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.251   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.251   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.251   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-27 12:12:56.255   549  1011 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:56.255   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.255   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.255   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.255   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.255   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:56.255   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:57.343  2546  2546 W AccessibilityNodeInfoDumper: Fetch time: 77ms
+05-27 12:12:57.347   549   822 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:12:57.347   549   822 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-27 12:12:57.347   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:57.347   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:57.347   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:57.348   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:57.348   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:57.348   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:57.348   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:57.348   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:57.348   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:12:57.348   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-27 12:12:57.350  2546  2546 D AndroidRuntime: Shutting down VM
+05-27 12:13:00.102   782   985 D EGL_emulation: app_time_stats: avg=48263.85ms min=48263.85ms max=48263.85ms count=1
+05-27 12:13:14.983   549  1011 W VibratorManagerService: performHapticFeedback; vibration absent for constant 9
+05-27 12:13:15.267  2367  2382 D EGL_emulation: app_time_stats: avg=591.21ms min=1.36ms max=19851.28ms count=34
+05-27 12:13:15.575   549  1011 W VibratorManagerService: performHapticFeedback; vibration absent for constant 9
+05-27 12:13:16.138   549  1011 W VibratorManagerService: performHapticFeedback; vibration absent for constant 9
+05-27 12:13:16.279  2367  2382 D EGL_emulation: app_time_stats: avg=8.02ms min=1.50ms max=43.54ms count=57
+05-27 12:13:16.695   549  1011 W VibratorManagerService: performHapticFeedback; vibration absent for constant 9
+05-27 12:13:17.274   549  1011 W VibratorManagerService: performHapticFeedback; vibration absent for constant 9
+05-27 12:13:17.296  2367  2382 D EGL_emulation: app_time_stats: avg=8.04ms min=1.52ms max=25.29ms count=58
+05-27 12:13:17.844   549  1011 W VibratorManagerService: performHapticFeedback; vibration absent for constant 9
+05-27 12:13:18.299  2367  2382 D EGL_emulation: app_time_stats: avg=9.66ms min=1.96ms max=26.40ms count=55
+05-27 12:13:20.004  2592  2592 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-27 12:13:20.004  2592  2592 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-27 12:13:20.022   162   162 I servicemanager: Caller(pid=2592,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-27 12:13:20.023   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-27 12:13:20.024  2592  2593 I Gralloc4: mapper 4.x is not supported
+05-27 12:13:20.308  2596  2596 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 12:13:20.311  2596  2596 I AndroidRuntime: Using default boot image
+05-27 12:13:20.311  2596  2596 I AndroidRuntime: Leaving lock profiling enabled
+05-27 12:13:20.312  2596  2596 I app_process: Core platform API reporting enabled, enforcing=false
+05-27 12:13:20.312  2596  2596 I app_process: Using CollectorTypeCMC GC.
+05-27 12:13:20.353  2596  2596 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-27 12:13:20.358  2596  2596 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:13:20.358  2596  2596 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-27 12:13:20.358  2596  2596 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-27 12:13:20.359  2596  2596 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:13:20.359  2596  2596 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:13:20.361  2596  2596 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-27 12:13:20.361  2596  2596 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-27 12:13:20.373  2596  2596 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-27 12:13:20.374  2596  2596 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 12:13:20.378  2596  2596 D UiAutomationConnection: Created on user UserHandle{0}
+05-27 12:13:20.378  2596  2596 I UiAutomation: Initialized for user 0 on display 0
+05-27 12:13:20.378  2596  2596 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-27 12:13:20.380   549   564 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-27 12:13:20.380   549   564 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-27 12:13:20.383   549   564 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:13:20.388   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.388   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.388   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.388  2596  2608 V UiAutomation: Init UiAutomation@9c5611f[id=13, displayId=0, flags=0]
+05-27 12:13:20.388   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.388   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.388   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.388   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.388   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.388   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.389   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-27 12:13:20.390   549  1011 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:13:20.391   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.391   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.391   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.392   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.393   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:20.394   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:21.476  2596  2596 W AccessibilityNodeInfoDumper: Fetch time: 75ms
+05-27 12:13:21.480   549  2328 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:13:21.480   549  2328 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-27 12:13:21.481   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:21.481   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:21.481   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:21.481   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:21.481   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:21.481   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:21.481   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:21.481   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:21.481   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:21.481   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-27 12:13:21.484  2596  2596 D AndroidRuntime: Shutting down VM
+05-27 12:13:32.067   549  1011 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{network{120}  handle{518801772557}  ni{MOBILE[HSPA] CONNECTING extra: fast.t-mobile.com} created=2026-05-27T09:13:32.067Z Score(Policies :  ; KeepConnected : 0)   lp{{LinkAddresses: [ ] DnsAddresses: [ ] Domains: null MTU: 0 Routes: [ ]}}  nc{[ Transports: CELLULAR Capabilities: MMS&SUPL&IA&XCAP&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=14Kbps LinkDnBandwidth>=14Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> SubscriptionIds: {1} UnderlyingNetworks: Null]}  factorySerialNumber=4}
+05-27 12:13:32.072   549  1011 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1332 android.content.Context.sendBroadcastMultiplePermissions:2468 android.content.Context.sendBroadcastMultiplePermissions:2456 com.android.server.TelephonyRegistry.broadcastDataConnectionStateChanged:3916 com.android.server.TelephonyRegistry.notifyDataConnectionForSubscriber:2228 
+05-27 12:13:32.073   549   689 E MboOceController: onDataConnectionStateChanged unexpected State: 1
+05-27 12:13:32.073   549   689 E WifiDataStall: onDataConnectionStateChanged unexpected State: 1
+05-27 12:13:32.073   359   428 I netd    : getFwmarkForNetwork(120) -> {MarkMaskParcel{mark: 120, mask: 65535}} <0.01ms>
+05-27 12:13:32.077   549   696 D ConnectivityService: [120 CELLULAR] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to CONNECTING
+05-27 12:13:32.085   864  2609 D NetworkMonitor/120: checkAndRenewResourceConfig: update captive portal https urls to [https://www.google.com/generate_204]
+05-27 12:13:32.085   864  2609 D NetworkMonitor/120: checkAndRenewResourceConfig: update captive portal http urls to [http://connectivitycheck.gstatic.com/generate_204]
+05-27 12:13:32.085   864  2609 D NetworkMonitor/120: checkAndRenewResourceConfig: update captive portal fallback urls to[http://www.google.com/gen_204, http://play.googleapis.com/generate_204]
+05-27 12:13:32.085   864  2609 D NetworkMonitor: Starting on network 120 with capport HTTPS URL [https://www.google.com/generate_204] and HTTP URL [http://connectivitycheck.gstatic.com/generate_204]
+05-27 12:13:32.086   549  1011 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1332 android.content.Context.sendBroadcastMultiplePermissions:2468 android.content.Context.sendBroadcastMultiplePermissions:2456 com.android.server.TelephonyRegistry.broadcastDataConnectionStateChanged:3916 com.android.server.TelephonyRegistry.notifyDataConnectionForSubscriber:2228 
+05-27 12:13:32.087   549   696 D ConnectivityService: [120 CELLULAR] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to DISCONNECTED
+05-27 12:13:32.087   549   696 D ConnectivityService: [120 CELLULAR] disconnected, was satisfying 0
+05-27 12:13:32.089   549   696 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 12:13:32.109   359   428 I netd    : tetherGetStats() -> {[]} <1.52ms>
+05-27 12:13:32.110   549   696 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 12:13:32.111   359   428 I netd    : setNetworkAllowlist([]) <0.03ms>
+05-27 12:13:32.112   549   696 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 0]
+05-27 12:13:33.243  2367  2382 D EGL_emulation: app_time_stats: avg=3727.26ms min=4.24ms max=14888.28ms count=4
+05-27 12:13:34.619  2617  2617 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-27 12:13:34.619  2617  2617 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-27 12:13:34.626   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-27 12:13:34.626  2617  2618 I Gralloc4: mapper 4.x is not supported
+05-27 12:13:34.627   162   162 I servicemanager: Caller(pid=2617,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-27 12:13:34.896  2621  2621 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 12:13:34.898  2621  2621 I AndroidRuntime: Using default boot image
+05-27 12:13:34.898  2621  2621 I AndroidRuntime: Leaving lock profiling enabled
+05-27 12:13:34.899  2621  2621 I app_process: Core platform API reporting enabled, enforcing=false
+05-27 12:13:34.899  2621  2621 I app_process: Using CollectorTypeCMC GC.
+05-27 12:13:34.933  2621  2621 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-27 12:13:34.937  2621  2621 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:13:34.938  2621  2621 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-27 12:13:34.938  2621  2621 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-27 12:13:34.938  2621  2621 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:13:34.938  2621  2621 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-27 12:13:34.940  2621  2621 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-27 12:13:34.940  2621  2621 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-27 12:13:34.949  2621  2621 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-27 12:13:34.949  2621  2621 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 12:13:34.958  2621  2621 D UiAutomationConnection: Created on user UserHandle{0}
+05-27 12:13:34.958  2621  2621 I UiAutomation: Initialized for user 0 on display 0
+05-27 12:13:34.958  2621  2621 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-27 12:13:34.959   549  1011 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-27 12:13:34.959   549  1011 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-27 12:13:34.961   549  1011 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:13:34.966   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.966   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.966   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.966   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.966   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.966   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.967   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.967   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.967   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.968   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-27 12:13:34.968  2621  2632 V UiAutomation: Init UiAutomation@5f2239d[id=14, displayId=0, flags=0]
+05-27 12:13:34.973   549   822 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:13:34.978   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.978   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.978   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.978   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.978   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:34.978   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:35.678   549   758 D androidtc: Initializing SystemTextClassifier, type = System
+05-27 12:13:35.705   782   782 I ClipboardListener: Clipboard overlay suppressed.
+05-27 12:13:35.705   549   759 D TextClassificationManagerService: Binding to ComponentInfo{android.ext.services/com.android.textclassifier.DefaultTextClassifierService}
+05-27 12:13:35.707   782   782 I ClipboardListener: Clipboard overlay suppressed.
+05-27 12:13:35.735  1212  1212 D androidtc: DeviceConfig listener and locale change listener are registered.
+05-27 12:13:35.740   549   818 D OomAdjuster: Not killing cached processes
+05-27 12:13:35.763  1212  2633 D nativeloader: Load /apex/com.android.extservices/priv-app/ExtServices-sminus@AE3A.240806.019/ExtServices-sminus.apk!/lib/arm64-v8a/libtextclassifier.so using ns clns-shared-7 from class loader (caller=/apex/com.android.extservices/priv-app/ExtServices-sminus@AE3A.240806.019/ExtServices-sminus.apk): ok
+05-27 12:13:35.764  1212  2633 E saftm   : mmap.cc:249: Error during Unmap / munmap: Invalid argument
+05-27 12:13:35.764  1212  2633 D androidtc: Loading ModelFile { type=lang_id path=textclassifier/lang_id.model version=1 locales=* isAsset=true}
+05-27 12:13:35.765  1212  2633 D androidtc: Loading ModelFile { type=annotator path=textclassifier/annotator.universal.model version=804 locales=* isAsset=true}
+05-27 12:13:35.791   782   782 I ClipboardListener: Clipboard overlay suppressed.
+05-27 12:13:36.018  2621  2621 W AccessibilityNodeInfoDumper: Fetch time: 37ms
+05-27 12:13:36.023   549   818 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-27 12:13:36.023   549   818 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-27 12:13:36.023   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:36.023   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:36.023   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:36.024   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:36.024   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:36.024   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:36.024   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:36.024   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:36.025   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-27 12:13:36.025  2621  2621 D AndroidRuntime: Shutting down VM
+05-27 12:13:36.026   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-27 12:13:36.940   167   167 I logd    : logdr: UID=2000 GID=2000 PID=2635 n tail=0 logMask=10 pid=0 start=0ns deadline=0ns

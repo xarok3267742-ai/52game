@@ -1,0 +1,15 @@
+.gradle/
+build/
+app/build/
+.build-numbered-quarantine/
+.release-candidate-quarantine/
+release-candidate/*/
+local.properties
+*.iml
+.idea/
+.DS_Store
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx

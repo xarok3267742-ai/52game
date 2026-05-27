@@ -1,0 +1,1264 @@
+--------- beginning of main
+05-23 09:39:47.680   549   549 V NearbyService: Initiating BluetoothAdapter when Bluetooth is turned on.
+05-23 09:39:47.680   549   549 D BluetoothAdapter: isLeEnabled(): ON
+--------- beginning of system
+05-23 09:39:47.680   549   549 I CDM_BleDeviceProcessor: startBleScan()
+05-23 09:39:47.680   549   549 D BluetoothAdapter: isLeEnabled(): ON
+05-23 09:39:47.681  1858  1928 I BluetoothAdapterService: getActiveDevices: Hearing Aid devices: Left[null] - Right[null]
+05-23 09:39:47.681   782   782 D BluetoothAdapter: PAN connected
+05-23 09:39:47.681   549   708 I AS.BtHelper: BT profile HEADSET connected to proxy android.bluetooth.BluetoothHeadset@34068dd
+05-23 09:39:47.681   549   708 D BluetoothAdapter: getActiveDevices(profile= HEADSET)
+05-23 09:39:47.681   782   782 D BluetoothAdapter: PBAP connected
+05-23 09:39:47.681   782   782 D BluetoothAdapter: A2DP connected
+05-23 09:39:47.681  1858  1928 I BluetoothAdapterService: getActiveDevices: Headset device: null
+05-23 09:39:47.681   782   782 D BluetoothAdapter: HEADSET connected
+05-23 09:39:47.682   782   782 D BluetoothAdapter: HID_DEVICE connected
+05-23 09:39:47.682   782   782 D BluetoothAdapter: MAP connected
+05-23 09:39:47.682   782   782 D BluetoothMap: getConnectedDevices()
+05-23 09:39:47.685  1961  1961 I orquarter.debug: Using CollectorTypeCMC GC.
+05-23 09:39:47.686  1858  1867 I AdapterProperties: getBondedDevices: length=0
+05-23 09:39:47.689   549   571 V WindowManager: Sent Transition (#3) createdAt=05-23 09:39:47.659 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=17 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity } baseActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} topActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} origActivity=null realActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} numActivities=1 lastActiveTime=42461 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{68925f5 Task{bf85796 #17 type=standard A=10148:ru.cisgame.colorquarter.debug}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{273ff8a ru.cisgame.colorquarter.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 3 }
+05-23 09:39:47.689   549   571 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 09:39:47.689   549   571 V WindowManager:     info={id=3 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+05-23 09:39:47.689   549   571 V WindowManager:         {WCT{RemoteToken{68925f5 Task{bf85796 #17 type=standard A=10148:ru.cisgame.colorquarter.debug}}} m=OPEN f=NONE leash=Surface(name=Task=17)/@0x6c3cf39 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+05-23 09:39:47.689   549   571 V WindowManager:         {WCT{RemoteToken{9132c71 Task{2b932ed #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x522bb00 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+05-23 09:39:47.689   549   571 V WindowManager:     ]}
+05-23 09:39:47.690   782  1877 V WindowManagerShell: onTransitionReady(transaction=2357937045740)
+05-23 09:39:47.690   782   865 V WindowManagerShell: onTransitionReady (#3) android.os.BinderProxy@98b7a4a: {id=3 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5184787} m=OPEN f=NONE leash=Surface(name=Task=17)/@0xdcb9208 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@a8bc6b4} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x5bcda1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+05-23 09:39:47.690   782   865 V WindowManagerShell: Playing animation for (#3) android.os.BinderProxy@98b7a4a@0
+05-23 09:39:47.690   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@6de58d9
+05-23 09:39:47.690   782   865 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@c94229e
+05-23 09:39:47.690   782   865 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@1d3117f
+05-23 09:39:47.690   782   865 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@d6d554c
+05-23 09:39:47.690   782   865 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@c52a995
+05-23 09:39:47.690   782   865 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 09:39:47.690   782   865 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@d1bcaaa
+05-23 09:39:47.690   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@611469b
+05-23 09:39:47.690   782   865 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=3 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5184787} m=OPEN f=NONE leash=Surface(name=Task=17)/@0xdcb9208 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@a8bc6b4} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x5bcda1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+05-23 09:39:47.690   782   865 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@fc07a38, appThread = android.app.IApplicationThread$Stub$Proxy@9814a11, debugName = QuickstepLaunchHome }}
+05-23 09:39:47.690   782   865 V WindowManagerShell:  Delegate animation for (#3) to null
+05-23 09:39:47.690   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@ac3e776
+05-23 09:39:47.690   782   865 V WindowManagerShell: start default transition animation, info = {id=3 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@5184787} m=OPEN f=NONE leash=Surface(name=Task=17)/@0xdcb9208 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@a8bc6b4} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x5bcda1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+05-23 09:39:47.690   782   865 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@2a0de52 animAttr=0x13 type=OPEN isEntrance=false
+05-23 09:39:47.690   782   865 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@34a8d9e animAttr=0x12 type=OPEN isEntrance=true
+05-23 09:39:47.690   549   564 W UserManagerService: Requested status bar icon for non-badged user 0
+05-23 09:39:47.691   782   865 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@ac3e776
+05-23 09:39:47.696  1858  1901 I bt_port_api: system/stack/rfcomm/port_api.cc:223 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=6, is_server=true, mtu=990, uuid=0x0, dlci=12, signal_state=0xb, p_port=0x6deb0301d0
+05-23 09:39:47.696  1858  1901 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:692 rfcomm_cback: handling BTA_JV_RFCOMM_START_EVT, rfcomm_slot_id:3
+05-23 09:39:47.696  1858  1901 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:548 on_srv_rfc_listen_started: listening for RFCOMM socket connections for device: 00:00:00:00:00:00, scn: 6, app_uid: 1002, id: 3
+05-23 09:39:47.696  1858  1858 I bluetooth: system/btif/src/btif_sock_l2cap.cc:349 btsock_l2cap_alloc_l: Allocated l2cap socket structure socket_id:3
+05-23 09:39:47.696  1858  1901 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:750 jv_dm_cback: handling event:BTA_JV_GET_PSM_EVT, id:3
+05-23 09:39:47.696  1858  1901 I bt_l2cap: system/stack/l2cap/l2c_api.cc:169 L2CA_Register: L2CAP Registered service classic PSM: 0x1005
+05-23 09:39:47.696  1858  1901 I bluetooth: system/btif/src/btif_sock_l2cap.cc:458 on_srv_l2cap_listen_started: Listening for L2CAP connection for device: 00:00:00:00:00:00, channel: 4101, app_uid: 1002, id: 3, is_le: false
+05-23 09:39:47.696  1858  1901 I bluetooth: system/btif/src/btif_sock_l2cap.cc:373 send_app_psm_or_chan_l: Sending l2cap socket socket_id:3 channel:4101
+05-23 09:39:47.697  1858  1901 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1402 bta_dm_eir_update_uuid: EIR Adding UUID=0x1105 into extended inquiry response
+05-23 09:39:47.697  1858  1901 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1132 bta_dm_set_eir: Generating extended inquiry response packet EIR
+05-23 09:39:47.698  1858  1858 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+05-23 09:39:47.699   549   564 I MediaSessionStack: addSession to bottom of stack | record: com.android.bluetooth/BluetoothMediaBrowserService/9 (userId=0)
+05-23 09:39:47.699   549   564 D MediaSessionService: onSessionPlaybackStateChanged: record=com.android.bluetooth/BluetoothMediaBrowserService/9 (userId=0) playbackState=PlaybackState {state=ERROR(7), position=0, buffered position=0, speed=0.0, updated=42499, actions=0, custom actions=[], active item id=-1, error=Bluetooth audio disconnected}
+05-23 09:39:47.700  1858  1858 I PlayerSettingsManager: getPlayerRepeatMode: no active player
+05-23 09:39:47.700  1858  1858 I PlayerSettingsManager: getPlayerShuffleMode: no active player
+05-23 09:39:47.700  1858  1858 I PlayerSettingsManager: updateRemoteDevice: STATE_REPEAT_OFF, STATE_SHUFFLE_OFF
+05-23 09:39:47.700  1858  1858 I bluetooth: system/btif/avrcp/avrcp_service.cc:586 SendPlayerSettingsChanged: {attribute=PlayerAttribute::REPEAT : value=PlayerRepeatValue::OFF}, {attribute=PlayerAttribute::SHUFFLE : value=PlayerShuffleValue::OFF}
+05-23 09:39:47.700  1858  1858 I BluetoothMediaBrowserService: Browser Client Connection Request, client='com.android.bluetooth')
+05-23 09:39:47.700  1858  1858 I BluetoothMediaBrowserService: Browser Client Connection Request, client='com.android.bluetooth')
+05-23 09:39:47.700  1858  1858 I BrowsedPlayerWrapper: onConnected: com.android.bluetooth is connected
+05-23 09:39:47.700  1858  1858 I BrowsedPlayerWrapper: getFolderItems: Connected to browsable player: com.android.bluetooth
+05-23 09:39:47.700  1858  1858 I BrowsedPlayerWrapper: onConnected: com.android.bluetooth is connected
+05-23 09:39:47.700  1858  1858 I BrowsedPlayerWrapper: getFolderItems: Connected to browsable player: com.android.bluetooth
+05-23 09:39:47.700  1858  1858 W BluetoothMediaBrowserService: getContents(id=__ROOT__): AVRCP Controller Service not ready
+05-23 09:39:47.700  1858  1858 W BluetoothMediaBrowserService: getContents(id=__ROOT__): AVRCP Controller Service not ready
+05-23 09:39:47.700  1858  1858 I AvrcpBrowsablePlayerConnector: Successfully connected to 0 browsable players.
+05-23 09:39:47.701   782   985 D EGL_emulation: app_time_stats: avg=1567.93ms min=1.15ms max=31952.87ms count=21
+05-23 09:39:47.701  1858  1858 I MediaPlayerList: init: Browsable Player list size is 0
+05-23 09:39:47.702  1858  1858 I AvrcpBrowsablePlayerConnector: Successfully connected to 0 browsable players.
+05-23 09:39:47.702  1858  1858 I MediaPlayerList: init: Browsable Player list size is 0
+05-23 09:39:47.705   411   451 I adbd    : jdwp connection from 1961
+05-23 09:39:47.709  1961  1961 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-23 09:39:47.715  1104  1304 D EGL_emulation: app_time_stats: avg=19564.02ms min=19564.02ms max=19564.02ms count=1
+05-23 09:39:47.718  1104  1304 D EGL_emulation: app_time_stats: avg=1817.26ms min=10.47ms max=32455.09ms count=18
+05-23 09:39:47.724  1961  1961 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+05-23 09:39:47.724  1961  1961 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+05-23 09:39:47.724  1961  1961 W ziparchive: Unable to open '/data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/base.dm': No such file or directory
+05-23 09:39:47.724  1961  1961 W ziparchive: Unable to open '/data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/base.dm': No such file or directory
+05-23 09:39:47.788   359  1828 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:47.789   359  1829 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:47.902  1961  1961 D nativeloader: Configuring clns-7 for other apk /data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/lib/arm64:/data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/ru.cisgame.colorquarter.debug
+05-23 09:39:47.903  1961  1961 D CompatChangeReporter: Compat change id reported: 202956589; UID 10148; state: ENABLED
+05-23 09:39:47.908  1961  1961 V GraphicsEnvironment: Currently set values for:
+05-23 09:39:47.908  1961  1961 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-23 09:39:47.908  1961  1961 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-23 09:39:47.908  1961  1961 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+05-23 09:39:47.908  1961  1961 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+05-23 09:39:47.913   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:47.914   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:47.914   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:47.920  1961  1961 D CompatChangeReporter: Compat change id reported: 279646685; UID 10148; state: ENABLED
+05-23 09:39:47.924   549   564 D CompatChangeReporter: Compat change id reported: 324203798; UID 10148; state: ENABLED
+05-23 09:39:47.944  1961  1961 D CompatChangeReporter: Compat change id reported: 309578419; UID 10148; state: ENABLED
+05-23 09:39:47.971  1961  1961 W HWUI    : Unknown dataspace 0
+05-23 09:39:47.982   782   865 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#3) android.os.BinderProxy@98b7a4a@0
+05-23 09:39:47.982   549   571 V WindowManager: Finish Transition (#3): created at 05-23 09:39:47.659 collect-started=0.035ms request-sent=2.34ms started=8.2ms ready=28.501ms sent=29.301ms finished=323.22ms
+05-23 09:39:47.983  1104  1104 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+05-23 09:39:47.983   782   865 V WindowManagerShell: Track 0 became idle
+05-23 09:39:47.983   782   865 V WindowManagerShell: All active transition animations finished
+05-23 09:39:47.984   549   564 W UserManagerService: Requested status bar icon for non-badged user 0
+05-23 09:39:47.984   549   564 W UserManagerService: Requested status bar icon for non-badged user 0
+05-23 09:39:48.090  1961  1961 W orquarter.debug: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+05-23 09:39:48.117  1961  1970 I orquarter.debug: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+05-23 09:39:48.179   549   564 D CoreBackPreview: Window{d4ee963 u0 ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@f44c2d5, mPriority=0, mIsAnimationCallback=false}
+05-23 09:39:48.221   406   503 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10148 pid=0
+05-23 09:39:48.221   406   503 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10148 => denied (215 us)
+05-23 09:39:48.221   406   503 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10148 pid=0
+05-23 09:39:48.221   406   503 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10148 => denied (31 us)
+05-23 09:39:48.221   406   503 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10148 pid=0
+05-23 09:39:48.221   406   503 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10148 => denied (16 us)
+05-23 09:39:48.222   406   650 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10148 pid=1961
+05-23 09:39:48.222   406   650 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10148 => denied (347 us)
+05-23 09:39:48.222  1961  1979 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+05-23 09:39:48.222  1961  1979 I EGL_emulation: Opening libGLESv2_emulation.so
+05-23 09:39:48.227  1961  1979 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 09:39:48.227  1961  1979 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-23 09:39:48.237   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-23 09:39:48.237  1961  1979 I Gralloc4: mapper 4.x is not supported
+--------- beginning of kernel
+05-23 09:39:41.239   162   162 I servicemanager: Caller(pid=1961,uid=10148,sid=u:r:untrusted_app:s0:c148,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-23 09:39:48.287   549   613 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10148 pid=0
+05-23 09:39:48.287   549   613 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10148 => denied (66 us)
+05-23 09:39:48.287   549   613 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10148 pid=0
+05-23 09:39:48.287   549   613 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10148 => denied (6 us)
+05-23 09:39:48.287   549   613 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10148 pid=0
+05-23 09:39:48.287   549   613 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10148 => denied (3 us)
+05-23 09:39:48.289   549   571 W ziparchive: Unable to open '/data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/base.dm': No such file or directory
+05-23 09:39:48.289   549   571 I ActivityTaskManager: Displayed ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity for user 0: +647ms
+05-23 09:39:48.292  1104  1104 D BaseDepthController: setSurface:
+05-23 09:39:48.292  1104  1104 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-23 09:39:48.292  1104  1104 D BaseDepthController: 	mSurface: null
+05-23 09:39:48.292  1104  1104 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+05-23 09:39:48.292  1104  1104 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+05-23 09:39:48.292  1104  1104 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:453)
+05-23 09:39:48.292  1104  1104 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:444)
+05-23 09:39:48.292  1104  1104 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(StatefulActivity.java:119)
+05-23 09:39:48.293  1104  1104 D StatsLog: LAUNCHER_ONSTOP
+05-23 09:39:48.293   549   564 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+05-23 09:39:48.309   359   428 I netd    : tetherGetStats() -> {[]} <0.44ms>
+05-23 09:39:48.318   549   660 I ImeTracker: ru.cisgame.colorquarter.debug:9c970c97: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+05-23 09:39:48.318   549   660 I ImeTracker: ru.cisgame.colorquarter.debug:9c970c97: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 09:39:48.648   782   942 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@10b0cee
+05-23 09:39:48.648   549  1081 D CoreBackPreview: Window{23b3059 u0 Splash Screen ru.cisgame.colorquarter.debug EXITING}: Setting back callback null
+05-23 09:39:48.648   549   613 W InputManager-JNI: Input channel object '23b3059 Splash Screen ru.cisgame.colorquarter.debug (client)' was disposed without first being removed with the input manager!
+05-23 09:39:48.697   782   942 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 8091, 5358441, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-23 09:39:48.918   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:48.918   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:48.918   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:49.791   359  1825 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:49.791   359  1824 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:49.791   359  1823 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:49.791   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:39:49.791   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:39:49.791   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:39:49.791   864  1821 D NetworkMonitor/100: PROBE_DNS www.google.com 10012ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:39:49.792   359  1826 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:49.792   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:39:49.792   359  1989 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:39:49.793   359  1991 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:39:49.793   864  1822 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 10013ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:39:49.793   359  1990 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:39:49.793   359  1990 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:39:49.794   359  1992 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:39:49.794   359  1993 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:39:49.794   359  1994 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:39:49.794   359  1993 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:39:49.795   359  1991 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:39:49.796   359  1994 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:39:49.923   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:49.924   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:49.924   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:50.666   549  1254 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+05-23 09:39:50.935   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:50.935   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:50.935   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:51.941   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:51.941   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:51.941   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:52.795   359  1829 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:52.795   359  1829 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:39:52.795   359  1828 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:52.795   359  1828 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:39:52.796   864  1820 D NetworkMonitor/100: PROBE_FALLBACK http://play.googleapis.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+05-23 09:39:52.952   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:52.952   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:52.952   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:53.129  1961  1995 D ProfileInstaller: Installing profile for ru.cisgame.colorquarter.debug
+05-23 09:39:53.610   549   580 D OomAdjuster: Not killing cached processes
+05-23 09:39:53.666   359   428 I netd    : tetherGetStats() -> {[]} <0.30ms>
+05-23 09:39:53.960   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:53.960   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:53.961   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:54.798   359  1994 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:54.798   359  1991 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:54.798   359  1990 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:54.799   359  1993 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:54.965   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:54.965   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:54.966   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:55.977   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:55.977   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:55.977   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:56.987   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:56.988   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:56.989   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:57.273  1998  1998 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-23 09:39:57.274  1998  1998 I AndroidRuntime: Using default boot image
+05-23 09:39:57.274  1998  1998 I AndroidRuntime: Leaving lock profiling enabled
+05-23 09:39:57.275  1998  1998 I app_process: Core platform API reporting enabled, enforcing=false
+05-23 09:39:57.275  1998  1998 I app_process: Using CollectorTypeCMC GC.
+05-23 09:39:57.303  1998  1998 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-23 09:39:57.306  1998  1998 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:39:57.306  1998  1998 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-23 09:39:57.307  1998  1998 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-23 09:39:57.307  1998  1998 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:39:57.307  1998  1998 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:39:57.309  1998  1998 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-23 09:39:57.311  1998  1998 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-23 09:39:57.318  1998  1998 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-23 09:39:57.319  1998  1998 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-23 09:39:57.320  1998  1998 D UiAutomationConnection: Created on user UserHandle{0}
+05-23 09:39:57.320  1998  1998 I UiAutomation: Initialized for user 0 on display 0
+05-23 09:39:57.320  1998  1998 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-23 09:39:57.321   549   822 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-23 09:39:57.321   549   822 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-23 09:39:57.321   549   822 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:39:57.322  1998  2009 V UiAutomation: Init UiAutomation@26f1294[id=1, displayId=0, flags=0]
+05-23 09:39:57.323   549   613 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:39:57.323   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-23 09:39:57.323   941  1079 D AccessibilitySourceService: enabled a11y services count 0
+05-23 09:39:57.323   941  1079 D AccessibilitySourceService: a11y source sending 0 issue to sc
+05-23 09:39:57.324   549   822 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+05-23 09:39:57.447   549   639 D ActivityManager: freezing 1636 com.android.providers.calendar
+05-23 09:39:57.448   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-23 09:39:57.448   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-23 09:39:57.448   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10060} in 0ms
+05-23 09:39:57.523   359   428 I netd    : tetherGetStats() -> {[]} <0.36ms>
+05-23 09:39:57.601   549   639 D ActivityManager: freezing 1878 com.android.documentsui
+05-23 09:39:57.601   549   639 D ActivityManager: freezing 1714 com.android.externalstorage
+05-23 09:39:57.601   549   639 D ActivityManager: freezing 1440 android.process.media
+05-23 09:39:57.602   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-23 09:39:57.602   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-23 09:39:57.602   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10069} in 0ms
+05-23 09:39:57.613   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-23 09:39:57.613   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-23 09:39:57.613   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10074} in 1ms
+05-23 09:39:57.613   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-23 09:39:57.613   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-23 09:39:57.613   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10065} in 0ms
+05-23 09:39:57.685   549   639 D ActivityManager: freezing 1320 com.android.music
+05-23 09:39:57.686   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-23 09:39:57.686   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-23 09:39:57.686   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10107} in 1ms
+05-23 09:39:57.992   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:57.992   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:57.993   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:58.048   186  1873 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+05-23 09:39:58.066   549   689 E WifiHealthMonitor:  Hit PackageManager exception
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: android.content.pm.PackageManager$NameNotFoundException: No module info for package: com.android.wifi
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at android.app.ApplicationPackageManager.getModuleInfo(ApplicationPackageManager.java:1215)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.getWifiStackVersion(WifiHealthMonitor.java:369)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.extractCurrentSoftwareBuildInfo(WifiHealthMonitor.java:590)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootSwBuildCheck(WifiHealthMonitor.java:525)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootDetectionHandler(WifiHealthMonitor.java:516)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.-$$Nest$mpostBootDetectionHandler(WifiHealthMonitor.java:0)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor$2.onAlarm(WifiHealthMonitor.java:192)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at android.app.AlarmManager$ListenerWrapper.run(AlarmManager.java:375)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at android.os.Handler.handleCallback(Handler.java:959)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at com.android.server.wifi.RunnerHandler.dispatchMessage(RunnerHandler.java:124)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at android.os.Looper.loopOnce(Looper.java:232)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at android.os.Looper.loop(Looper.java:317)
+05-23 09:39:58.066   549   689 E WifiHealthMonitor: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+05-23 09:39:58.071   549   689 W system_server: Core platform API violation: Llibcore/io/Memory;->pokeByte(JB)V from Lcom/android/wifi/x/com/google/protobuf/UnsafeUtil; using reflection
+05-23 09:39:58.071   549   689 W system_server: Core platform API violation: Llibcore/io/Memory;->peekByte(J)B from Lcom/android/wifi/x/com/google/protobuf/UnsafeUtil; using reflection
+05-23 09:39:58.388  1998  1998 W AccessibilityNodeInfoDumper: Fetch time: 54ms
+05-23 09:39:58.389   549   613 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:39:58.389   549   613 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-23 09:39:58.389   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:39:58.390   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:39:58.390  1998  1998 D AndroidRuntime: Shutting down VM
+05-23 09:39:58.390   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:39:58.390   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-23 09:39:58.998   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:58.999   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:59.001   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:39:59.798   359  1994 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:59.798   359  1994 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:39:59.804   359  1991 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:59.804   359  1990 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:59.804   359  1990 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:39:59.804   359  1991 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:39:59.804   864  1821 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+05-23 09:39:59.804   359  1993 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:39:59.804   359  1993 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:39:59.804   864  1822 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "connectivitycheck.gstatic.com": No address associated with hostname
+05-23 09:39:59.805   864  1820 D NetworkMonitor/100: isCaptivePortal: isSuccessful()=false isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=20026ms
+05-23 09:39:59.805   549   696 D ConnectivityService: [100 CELLULAR] validation failed
+05-23 09:40:00.002   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:00.003   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:00.004   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:00.024   782   985 D EGL_emulation: app_time_stats: avg=1229.49ms min=1.97ms max=12164.36ms count=10
+05-23 09:40:01.013   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:01.013   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:01.014   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:01.815   864  2014 D TrafficStats: tagSocket(5) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:01.815   864  2015 D TrafficStats: tagSocket(73) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:01.816   864  2015 D TrafficStats: tagSocket(73) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:01.817   864  2014 D TrafficStats: tagSocket(5) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:01.818   359  2016 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:01.818   359  2016 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:01.819   359  2017 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:01.819   359  2017 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:01.820   359  2018 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:01.820   359  2018 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:01.821   359  2019 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:01.821   359  2019 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:02.018   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:02.018   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:02.019   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:03.022   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:03.022   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:03.023   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:04.027   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:04.027   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:04.028   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:04.567   782   985 D EGL_emulation: app_time_stats: avg=4543.11ms min=4543.11ms max=4543.11ms count=1
+05-23 09:40:04.818   359  2020 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:40:04.818   359  2022 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:40:04.818   359  2022 I resolv  : resolv_cache_lookup: Waiting for previous request
+05-23 09:40:04.818   359  2021 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:40:04.818   359  2021 I resolv  : resolv_cache_lookup: Waiting for previous request
+05-23 09:40:05.035   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:05.035   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:05.036   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:05.202   549   581 D OomAdjuster: Not killing cached processes
+05-23 09:40:05.203   881   881 D BatteryUsageBroadcastReceiver: onReceive:android.intent.action.BATTERY_LEVEL_CHANGED
+05-23 09:40:05.204   881   881 D BatteryUsageBroadcastReceiver: fetch data because of event: ACTION_BATTERY_LEVEL_CHANGED
+05-23 09:40:05.204   881   881 D BatteryUsageBroadcastReceiver: cancel sendBroadcastToFetchUsageData when broadcastDelay is 2339996ms.
+05-23 09:40:06.043   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:06.044   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:06.044   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:06.825   359  2018 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:06.826   359  2017 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:06.826   359  2016 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:06.826   359  2019 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:07.047   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:07.047   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:07.048   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:07.551   549   639 D ActivityManager: freezing 941 com.android.permissioncontroller
+05-23 09:40:07.552   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-23 09:40:07.552   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-23 09:40:07.552   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10143} in 0ms
+05-23 09:40:07.684   549   639 D ActivityManager: freezing 1358 com.android.keychain
+05-23 09:40:07.685   549   639 D ActivityManager: freezing 1779 com.android.localtransport
+05-23 09:40:07.685   549   639 D ActivityManager: freezing 1576 com.android.dynsystem:dynsystem
+05-23 09:40:07.685   549   639 D ActivityManager: freezing 1560 com.android.dynsystem
+05-23 09:40:07.685   549   639 D ActivityManager: freezing 1401 com.android.DeviceAsWebcam
+05-23 09:40:08.051   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:08.051   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:08.052   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:09.054   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:09.054   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:09.055   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:10.057   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:10.057   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:10.058   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:10.059   875   884 W m.android.phone: Missing inline cache for void android.net.LinkProperties.writeToParcel(android.os.Parcel, int)
+05-23 09:40:11.061   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:11.062   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:11.062   549  1106 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:11.832   359  2017 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:11.832   359  2016 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:11.832   359  2018 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:11.832   359  2019 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:11.832   359  2021 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:11.836   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:11.836   359  2022 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:11.837   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:11.837   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:11.837   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:11.837   864  2014 D NetworkMonitor/100: PROBE_DNS www.google.com 10022ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:11.838   864  2015 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 10022ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:11.840   359  2024 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:40:11.840   359  2023 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:40:11.840   359  2025 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:40:11.840   359  2025 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:11.841   359  2026 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:40:11.841   359  2027 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:40:11.841   359  2026 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:11.841   359  2028 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:40:11.843   359  2027 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:11.844   359  2028 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:12.068   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:12.068   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:12.069   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:13.079   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:13.079   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:13.080   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:13.401   549   822 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+05-23 09:40:13.559   549   765 D OomAdjuster: Not killing cached processes
+05-23 09:40:13.574   549   765 D ActivityManager: sync unfroze 941 com.android.permissioncontroller for 6
+05-23 09:40:13.589   359   428 I netd    : tetherGetStats() -> {[]} <0.37ms>
+05-23 09:40:13.594   941  1064 I PermissionControllerServiceImpl: Updating user sensitive for user 0
+05-23 09:40:13.603   549   822 W ParceledListSlice: Element #52 is 139564 bytes.
+05-23 09:40:13.603   549   822 W ParceledListSlice: Overly large reply size: 186612
+05-23 09:40:13.605   549   822 W ParceledListSlice: Element #158 is 29100 bytes.
+05-23 09:40:14.053  2036  2036 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-23 09:40:14.055  2036  2036 I AndroidRuntime: Using default boot image
+05-23 09:40:14.055  2036  2036 I AndroidRuntime: Leaving lock profiling enabled
+05-23 09:40:14.056  2036  2036 I app_process: Core platform API reporting enabled, enforcing=false
+05-23 09:40:14.056  2036  2036 I app_process: Using CollectorTypeCMC GC.
+05-23 09:40:14.082   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:14.082   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:14.082   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:14.082  2036  2036 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-23 09:40:14.087  2036  2036 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:14.087  2036  2036 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-23 09:40:14.087  2036  2036 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-23 09:40:14.087  2036  2036 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:14.087  2036  2036 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:14.088  2036  2036 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-23 09:40:14.088  2036  2036 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-23 09:40:14.095  2036  2036 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-23 09:40:14.095  2036  2036 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-23 09:40:14.097  2036  2036 D UiAutomationConnection: Created on user UserHandle{0}
+05-23 09:40:14.097  2036  2036 I UiAutomation: Initialized for user 0 on display 0
+05-23 09:40:14.097  2036  2036 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-23 09:40:14.097   549  1017 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-23 09:40:14.097   549  1017 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-23 09:40:14.098   549  1017 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:14.099   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:14.099  2036  2047 V UiAutomation: Init UiAutomation@b80da2d[id=2, displayId=0, flags=0]
+05-23 09:40:14.099   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:14.099   549   822 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:14.099   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:14.099   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:14.099   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:14.099   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-23 09:40:14.102   941  1079 D AccessibilitySourceService: enabled a11y services count 0
+05-23 09:40:14.102   941  1079 D AccessibilitySourceService: a11y source sending 0 issue to sc
+05-23 09:40:14.103   549   822 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+05-23 09:40:14.381   549   689 E WifiScoringParams: Invalid frequency(-1), using 5G as default rssi array
+05-23 09:40:15.092   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:15.092   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:15.093   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:15.111  2036  2036 W AccessibilityNodeInfoDumper: Fetch time: 5ms
+05-23 09:40:15.113   549  1081 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:15.113   549  1081 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-23 09:40:15.113   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:15.113   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:15.113   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:15.113   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-23 09:40:15.113  2036  2036 D AndroidRuntime: Shutting down VM
+05-23 09:40:15.209   549   639 D ActivityManager: freezing 881 com.android.settings
+05-23 09:40:16.097   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:16.098   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:16.098   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:16.839   359  2021 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:16.845   359  2022 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:16.845   359  2025 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:16.846   359  2026 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:16.847   359  2028 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:16.849   359  2027 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:17.110   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:17.110   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:17.111   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:18.119   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:18.120   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:18.120   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:18.201   549   613 D WifiNl80211Manager: Scan result ready event
+05-23 09:40:18.202   549   613 D WifiNative: Scan result ready event
+05-23 09:40:18.203   549   689 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+05-23 09:40:19.123   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:19.124   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:19.124   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:20.127   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:20.127   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:20.127   549   565 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:21.136   549   565 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:21.136   549   565 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:21.136   549   565 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:21.847   359  2021 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:21.847   359  2021 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:21.848   359  2022 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:21.848   359  2022 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:21.848   359  2026 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:21.848   359  2026 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:21.848   864  2013 D NetworkMonitor/100: PROBE_FALLBACK http://www.google.com/gen_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+05-23 09:40:21.848   359  2028 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:21.848   359  2028 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:21.848   359  2025 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:21.848   359  2025 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:21.848   864  2014 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+05-23 09:40:21.857   359  2027 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:21.857   359  2027 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:21.857   864  2015 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "connectivitycheck.gstatic.com": No address associated with hostname
+05-23 09:40:21.858   864  2013 D NetworkMonitor/100: isCaptivePortal: isSuccessful()=false isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=20043ms
+05-23 09:40:21.858   549   696 D ConnectivityService: [100 CELLULAR] validation failed
+05-23 09:40:22.139   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:22.140   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:22.141   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:23.149   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:23.149   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:23.149   549   613 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:23.666   549   765 D OomAdjuster: Not killing cached processes
+05-23 09:40:23.693   359   428 I netd    : tetherGetStats() -> {[]} <4.29ms>
+05-23 09:40:24.160   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:24.160   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:24.161   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:25.167   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:25.168   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:25.168   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:25.516  1961  1961 D CompatChangeReporter: Compat change id reported: 270674727; UID 10148; state: ENABLED
+05-23 09:40:25.746  1961  1979 D EGL_emulation: app_time_stats: avg=18730.02ms min=10080.68ms max=27379.36ms count=2
+05-23 09:40:25.863   864  2058 D TrafficStats: tagSocket(5) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:25.863   864  2057 D TrafficStats: tagSocket(108) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:25.864   864  2058 D TrafficStats: tagSocket(5) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:25.864   864  2057 D TrafficStats: tagSocket(108) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:25.865   359  2059 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:25.865   359  2059 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:25.865   359  2060 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:25.866   359  2060 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:25.868   359  2061 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:25.868   359  2061 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:25.868   359  2062 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:25.868   359  2062 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:26.174   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:26.174   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:26.175   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:27.181   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:27.182   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:27.182   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:27.567  2065  2065 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-23 09:40:27.569  2065  2065 I AndroidRuntime: Using default boot image
+05-23 09:40:27.569  2065  2065 I AndroidRuntime: Leaving lock profiling enabled
+05-23 09:40:27.570  2065  2065 I app_process: Core platform API reporting enabled, enforcing=false
+05-23 09:40:27.571  2065  2065 I app_process: Using CollectorTypeCMC GC.
+05-23 09:40:27.598  2065  2065 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-23 09:40:27.602  2065  2065 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:27.602  2065  2065 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-23 09:40:27.602  2065  2065 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-23 09:40:27.602  2065  2065 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:27.603  2065  2065 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:27.604  2065  2065 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-23 09:40:27.604  2065  2065 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-23 09:40:27.611  2065  2065 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-23 09:40:27.611  2065  2065 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-23 09:40:27.612  2065  2065 D UiAutomationConnection: Created on user UserHandle{0}
+05-23 09:40:27.612  2065  2065 I UiAutomation: Initialized for user 0 on display 0
+05-23 09:40:27.612  2065  2065 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-23 09:40:27.613   549  1081 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-23 09:40:27.613   549  1081 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-23 09:40:27.613   549  1081 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:27.614   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:27.614   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:27.614   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:27.614  2065  2076 V UiAutomation: Init UiAutomation@36145a2[id=3, displayId=0, flags=0]
+05-23 09:40:27.614   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:27.615   549  1081 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:27.615   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:27.615   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:27.615   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:27.615   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:27.615   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:27.615   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:27.616   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-23 09:40:27.617   941  1079 D AccessibilitySourceService: enabled a11y services count 0
+05-23 09:40:27.617   941  1079 D AccessibilitySourceService: a11y source sending 0 issue to sc
+05-23 09:40:27.618   549   564 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+05-23 09:40:28.185   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:28.185   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:28.186   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:28.643  2065  2065 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@9395; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(73, 2351 - 333, 2359); boundsInWindow: Rect(73, 2351 - 333, 2359); packageName: ru.cisgame.colorquarter.debug; className: android.widget.TextView; text: Сиреневый проезд; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null]; isTextSelectable: false
+05-23 09:40:28.644  2065  2065 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@944f; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(411, 2351 - 670, 2359); boundsInWindow: Rect(411, 2351 - 670, 2359); packageName: ru.cisgame.colorquarter.debug; className: android.widget.TextView; text: Большая клумба; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null]; isTextSelectable: false
+05-23 09:40:28.645  2065  2065 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@9509; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(748, 2351 - 1007, 2359); boundsInWindow: Rect(748, 2351 - 1007, 2359); packageName: ru.cisgame.colorquarter.debug; className: android.widget.TextView; text: Трамвайное кольцо; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null]; isTextSelectable: false
+05-23 09:40:28.646  2065  2065 W AccessibilityNodeInfoDumper: Fetch time: 21ms
+05-23 09:40:28.647   549   564 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:28.647   549   564 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-23 09:40:28.647   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:28.647   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:28.647   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:28.647   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:28.647   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:28.647   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:28.647   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-23 09:40:28.648  2065  2065 D AndroidRuntime: Shutting down VM
+05-23 09:40:28.864   359  2078 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:40:28.865   359  2079 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:40:28.865   359  2079 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:28.865   359  2080 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:40:28.867   359  2080 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:29.189   549   565 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:29.189   549   565 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:29.189   549   565 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:30.191   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:30.192   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:30.192   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:30.876   359  2059 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:30.876   359  2062 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:30.876   359  2061 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:30.877   359  2060 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:31.197   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:31.198   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:31.199   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:32.208   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:32.208   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:32.209   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:33.218   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:33.219   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:33.219   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:33.680   549   639 D ActivityManager: freezing 941 com.android.permissioncontroller
+05-23 09:40:33.681   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-23 09:40:33.681   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-23 09:40:33.681   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10143} in 1ms
+05-23 09:40:33.874   359  2079 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:33.875   359  2080 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:34.225   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:34.225   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:34.226   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:35.227   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:35.227   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:35.228   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:35.882   359  2059 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:35.882   359  2061 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:35.882   359  2062 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:35.882   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:35.883   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:35.883   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:35.883   864  2057 D NetworkMonitor/100: PROBE_DNS www.google.com 10019ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:35.883   359  2060 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:35.883   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:35.883   864  2058 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 10020ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:40:35.885   359  2081 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:40:35.885   359  2082 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:40:35.885   359  2083 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:40:35.885   359  2084 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:40:35.885   359  2083 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:35.885   359  2085 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:40:35.885   359  2085 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:35.885   359  2086 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:40:35.888   359  2084 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:35.888   359  2086 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:36.239   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:36.239   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:36.240   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:37.244   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:37.244   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:37.245   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:37.626  1961  1961 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+05-23 09:40:37.626  1961  1961 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+05-23 09:40:37.675  1961  1979 D EGL_emulation: app_time_stats: avg=11929.08ms min=11929.08ms max=11929.08ms count=1
+05-23 09:40:38.252   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:38.252   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:38.253   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:38.882   359  2079 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:38.882   359  2079 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:38.882   359  2080 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:38.882   359  2080 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:38.882   864  2056 D NetworkMonitor/100: PROBE_FALLBACK http://play.googleapis.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+05-23 09:40:39.259   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:39.259   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:39.260   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:39.651  2095  2095 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-23 09:40:39.654  2095  2095 I AndroidRuntime: Using default boot image
+05-23 09:40:39.654  2095  2095 I AndroidRuntime: Leaving lock profiling enabled
+05-23 09:40:39.655  2095  2095 I app_process: Core platform API reporting enabled, enforcing=false
+05-23 09:40:39.655  2095  2095 I app_process: Using CollectorTypeCMC GC.
+05-23 09:40:39.680  2095  2095 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-23 09:40:39.685  2095  2095 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:39.685  2095  2095 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-23 09:40:39.685  2095  2095 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-23 09:40:39.686  2095  2095 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:39.686  2095  2095 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:39.687  2095  2095 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-23 09:40:39.687  2095  2095 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-23 09:40:39.695  2095  2095 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-23 09:40:39.695  2095  2095 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-23 09:40:39.696  2095  2095 D UiAutomationConnection: Created on user UserHandle{0}
+05-23 09:40:39.696  2095  2095 I UiAutomation: Initialized for user 0 on display 0
+05-23 09:40:39.696  2095  2095 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-23 09:40:39.697   549   564 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-23 09:40:39.697   549   564 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-23 09:40:39.697   549   564 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:39.698   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.698   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.698   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.698   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.698   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.698   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.698  2095  2106 V UiAutomation: Init UiAutomation@6f55a0e[id=4, displayId=0, flags=0]
+05-23 09:40:39.698   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.698   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.698   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.698   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-23 09:40:39.699   549   565 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:39.699   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.699   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.700   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.700   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.700   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:39.700   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:40.262   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:40.263   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:40.264   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:40.744  2095  2095 W AccessibilityNodeInfoDumper: Fetch time: 31ms
+05-23 09:40:40.746   549   822 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:40.746   549   822 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-23 09:40:40.746   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:40.746   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:40.746   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:40.746   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:40.746   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:40.746   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:40.746   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:40.746   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:40.746   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:40.746   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-23 09:40:40.747  2095  2095 D AndroidRuntime: Shutting down VM
+05-23 09:40:40.891   359  2083 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:40.892   359  2084 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:40.892   359  2085 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:40.894   359  2086 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:41.266   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:41.267   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:41.268   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:42.273   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:42.274   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:42.275   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:43.278   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:43.278   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:43.279   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:44.285   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:44.285   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:44.286   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:44.590   782   985 D EGL_emulation: app_time_stats: avg=40023.36ms min=40023.36ms max=40023.36ms count=1
+05-23 09:40:45.293   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:45.294   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:45.295   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:45.900   359  2086 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:45.900   359  2085 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:45.900   359  2085 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:45.900   359  2086 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:45.900   359  2083 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:45.900   359  2083 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:45.900   359  2084 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:45.900   359  2084 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:40:45.901   864  2057 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+05-23 09:40:45.901   864  2058 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "connectivitycheck.gstatic.com": No address associated with hostname
+05-23 09:40:45.902   864  2056 D NetworkMonitor/100: isCaptivePortal: isSuccessful()=false isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=20039ms
+05-23 09:40:45.903   549   696 D ConnectivityService: [100 CELLULAR] validation failed
+05-23 09:40:46.296   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:46.297   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:46.297   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:47.302   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:47.302   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:47.303   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:48.307   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:48.308   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:48.309   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:49.316   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:49.316   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:49.317   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:50.322   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:50.322   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:50.323   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:51.154   549  1841 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=105953 mSleepTimeMs=0 mIdleTimeMs=105952 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]}
+05-23 09:40:51.166   875   884 I m.android.phone: Compiler allocated 5714KB to compile void com.android.phone.PhoneInterfaceManager$MainThreadHandler.handleMessage(android.os.Message)
+05-23 09:40:51.174   359   428 I netd    : tetherGetStats() -> {[]} <0.35ms>
+05-23 09:40:51.324   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:51.325   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:51.325   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:52.333   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:52.333   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:52.334   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:53.234   359  2108 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1000 1}
+05-23 09:40:53.235   359  2109 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:40:53.235   359  2109 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:53.235   359  2110 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:40:53.237   359  2110 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:53.335   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:53.335   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:53.336   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:53.913   864  2113 D TrafficStats: tagSocket(5) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:53.913   864  2112 D TrafficStats: tagSocket(73) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:53.914   864  2113 D TrafficStats: tagSocket(5) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:53.914   864  2112 D TrafficStats: tagSocket(73) with statsTag=0xffffff81, statsUid=-1
+05-23 09:40:53.917   359  2114 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:53.917   359  2115 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:53.917   359  2114 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:53.917   359  2115 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:53.920   359  2116 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:53.920   359  2117 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+05-23 09:40:53.920   359  2116 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:53.920   359  2117 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:54.342   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:54.343   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:54.344   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:54.847   549  1017 D HapticFeedbackCustomization: Customization file not configured.
+05-23 09:40:54.847   549  1017 W VibratorManagerService: performHapticFeedback; vibration absent for constant 9
+05-23 09:40:54.919  1961  1979 D EGL_emulation: app_time_stats: avg=17243.86ms min=17243.86ms max=17243.86ms count=1
+05-23 09:40:55.345   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:55.345   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:55.346   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:55.905  2126  2126 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-23 09:40:55.907  2126  2126 I AndroidRuntime: Using default boot image
+05-23 09:40:55.907  2126  2126 I AndroidRuntime: Leaving lock profiling enabled
+05-23 09:40:55.908  2126  2126 I app_process: Core platform API reporting enabled, enforcing=false
+05-23 09:40:55.908  2126  2126 I app_process: Using CollectorTypeCMC GC.
+05-23 09:40:55.932  2126  2126 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-23 09:40:55.935  2126  2126 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:55.935  2126  2126 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-23 09:40:55.935  2126  2126 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-23 09:40:55.936  2126  2126 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:55.936  2126  2126 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:40:55.937  2126  2126 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-23 09:40:55.937  2126  2126 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-23 09:40:55.945  2126  2126 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-23 09:40:55.945  2126  2126 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-23 09:40:55.946  2126  2126 D UiAutomationConnection: Created on user UserHandle{0}
+05-23 09:40:55.946  2126  2126 I UiAutomation: Initialized for user 0 on display 0
+05-23 09:40:55.946  2126  2126 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-23 09:40:55.947   549  1017 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-23 09:40:55.947   549  1017 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-23 09:40:55.948   549  1017 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:55.948   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.948   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.948   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.948   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.948   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.948   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.949   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.949   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.949   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.949   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-23 09:40:55.949  2126  2137 V UiAutomation: Init UiAutomation@bbaca9e[id=5, displayId=0, flags=0]
+05-23 09:40:55.949   549  1841 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:55.950   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.950   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.950   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.950   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.950   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:55.950   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:56.349   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:56.349   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:56.350   549  1081 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:56.918   359  2138 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:40:56.918   359  2139 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:40:56.919   359  2139 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:56.919   359  2140 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:40:56.922   359  2140 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:40:56.992  2126  2126 W AccessibilityNodeInfoDumper: Fetch time: 35ms
+05-23 09:40:56.994   549   613 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:40:56.994   549   613 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-23 09:40:56.994   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:56.994   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:56.994   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:56.994  2126  2126 D AndroidRuntime: Shutting down VM
+05-23 09:40:56.995   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:56.995   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:56.995   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:56.995   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:56.995   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:56.995   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:40:56.995   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-23 09:40:57.353   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:57.353   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:57.354   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:57.872  2144  2144 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-23 09:40:57.872  2144  2144 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-23 09:40:57.875   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-23 09:40:57.875  2144  2145 I Gralloc4: mapper 4.x is not supported
+05-23 09:40:57.876   162   162 I servicemanager: Caller(pid=2144,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-23 09:40:58.020   549   822 I ActivityManager: Force stopping ru.cisgame.colorquarter.debug appid=10148 user=0: from pid 2148
+05-23 09:40:58.021   549   822 I ActivityManager: Killing 1961:ru.cisgame.colorquarter.debug/u0a148 (adj 0): stop ru.cisgame.colorquarter.debug due to from pid 2148
+05-23 09:40:58.021   549   572 D DisplayManagerService: Drop pending events for gone uid 10148
+05-23 09:40:58.025   549   822 W ActivityTaskManager: Force removing ActivityRecord{d3ee6b1 u0 ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity t17 f}}: app died, no saved state
+05-23 09:40:58.025   782   865 V WindowManagerShell: Transition requested (#4): android.os.BinderProxy@a89d0f3 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=17 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} numActivities=0 lastActiveTime=42723 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@94a31b0} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 4 }
+05-23 09:40:58.026   549   613 I ImeTracker: ru.cisgame.colorquarter.debug:35966b70: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+05-23 09:40:58.026   549   613 I ImeTracker: ru.cisgame.colorquarter.debug:35966b70: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 09:40:58.026   411   411 I adbd    : Remote process closed the socket (on MSG_PEEK)
+05-23 09:40:58.027   549   750 I AppWidgetServiceImpl: startListening() 0
+05-23 09:40:58.027   549   822 D OomAdjuster: Not killing cached processes
+05-23 09:40:58.027   549  1841 I WindowManager: WIN DEATH: Window{d4ee963 u0 ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity}
+05-23 09:40:58.028   549  1841 W InputManager-JNI: Input channel object 'd4ee963 ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity (client)' was disposed without first being removed with the input manager!
+05-23 09:40:58.028   360   360 I Zygote  : Process 1961 exited due to signal 9 (Killed)
+05-23 09:40:58.028  1104  1104 D StatsLog: LAUNCHER_ONRESUME
+05-23 09:40:58.028   406   406 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 09:40:58.029   782   865 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=true, height=294
+05-23 09:40:58.032   549   563 V ActivityManager: Got obituary of 1961:ru.cisgame.colorquarter.debug
+05-23 09:40:58.032  1104  1104 D BaseDepthController: setSurface:
+05-23 09:40:58.032  1104  1104 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-23 09:40:58.032  1104  1104 D BaseDepthController: 	mSurface: Surface(name=com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher)/@0xd9fa53c
+05-23 09:40:58.034   549   574 W ActivityManager: setHasOverlayUi called on unknown pid: 1961
+05-23 09:40:58.034   549   723 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_RESTARTED on user 0
+05-23 09:40:58.034   549   723 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10148 package ru.cisgame.colorquarter.debug isStopped true
+05-23 09:40:58.035   875   875 D CarrierSvcBindHelper: onHandleForceStop: [ru.cisgame.colorquarter.debug]
+05-23 09:40:58.036   875   875 D CarrierSvcBindHelper: No carrier app for: 0
+05-23 09:40:58.037   359   428 I netd    : tetherGetStats() -> {[]} <0.37ms>
+05-23 09:40:58.038  1104  1104 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=16, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher }
+05-23 09:40:58.039   782   969 V WindowManagerShell: onTransitionReady(transaction=2357937045902)
+05-23 09:40:58.039   782   865 V WindowManagerShell: onTransitionReady (#4) android.os.BinderProxy@a89d0f3: {id=4 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@201ede5} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0xddaf829 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@56c40ba} m=CLOSE f=NONE leash=Surface(name=Task=17)/@0x68e57ae sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{ea1cf31 token=android.os.Binder@3e95fd8})/@0x7e6894f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 09:40:58.039   782   865 V WindowManagerShell: Playing animation for (#4) android.os.BinderProxy@a89d0f3@0
+05-23 09:40:58.039   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@6de58d9
+05-23 09:40:58.039   782   865 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@c94229e
+05-23 09:40:58.039   782   865 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@1d3117f
+05-23 09:40:58.039   782   865 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@d6d554c
+05-23 09:40:58.039   782   865 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@c52a995
+05-23 09:40:58.039   782   865 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 09:40:58.039   782   865 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@d1bcaaa
+05-23 09:40:58.039   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@611469b
+05-23 09:40:58.039   782   865 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=4 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@201ede5} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0xddaf829 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@56c40ba} m=CLOSE f=NONE leash=Surface(name=Task=17)/@0x68e57ae sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{ea1cf31 token=android.os.Binder@3e95fd8})/@0x7e6894f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-23 09:40:58.039   782   865 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@fc07a38, appThread = android.app.IApplicationThread$Stub$Proxy@9814a11, debugName = QuickstepLaunchHome }}
+05-23 09:40:58.039   782   865 D RemoteTransitionHandler: Found filterPair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@fc07a38, appThread = android.app.IApplicationThread$Stub$Proxy@9814a11, debugName = QuickstepLaunchHome }}
+05-23 09:40:58.039   782   865 V WindowManagerShell:  Delegate animation for (#4) to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@fc07a38, appThread = android.app.IApplicationThread$Stub$Proxy@9814a11, debugName = QuickstepLaunchHome }
+05-23 09:40:58.042  1104  1104 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+05-23 09:40:58.042  1104  1104 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(WorkspaceRevealAnim.java:130)
+05-23 09:40:58.042  1104  1104 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(WorkspaceRevealAnim.java:66)
+05-23 09:40:58.042  1104  1104 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(QuickstepTransitionManager.java:1716)
+05-23 09:40:58.044   549   571 V WindowManager: Sent Transition (#4) createdAt=05-23 09:40:58.025 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=17 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} numActivities=0 lastActiveTime=42723 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{68925f5 Task{bf85796 #17 type=standard A=10148:ru.cisgame.colorquarter.debug}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 4 }
+05-23 09:40:58.044   549   571 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 09:40:58.044   549   571 V WindowManager:     info={id=4 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+05-23 09:40:58.044   549   571 V WindowManager:         {WCT{RemoteToken{9132c71 Task{2b932ed #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x522bb00 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+05-23 09:40:58.044   549   571 V WindowManager:         {WCT{RemoteToken{68925f5 Task{bf85796 #17 type=standard A=10148:ru.cisgame.colorquarter.debug}}} m=CLOSE f=NONE leash=Surface(name=Task=17)/@0x6c3cf39 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+05-23 09:40:58.044   549   571 V WindowManager:         {null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{ea1cf31 token=android.os.Binder@3e95fd8})/@0xe93e408 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}
+05-23 09:40:58.044   549   571 V WindowManager:     ]}
+05-23 09:40:58.044   549   583 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10148/pid_1961
+05-23 09:40:58.045   549   575 W ActivityTaskManager: Unable to send transaction to client proc ru.cisgame.colorquarter.debug: no app thread
+05-23 09:40:58.047   782   865 V WindowManagerShell:  animated by com.android.wm.shell.transition.RemoteTransitionHandler@611469b
+05-23 09:40:58.048   549   822 W UserManagerService: Requested status bar icon for non-badged user 0
+05-23 09:40:58.050   549   574 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+05-23 09:40:58.053   782   985 D EGL_emulation: app_time_stats: avg=13462.34ms min=13462.34ms max=13462.34ms count=1
+05-23 09:40:58.063  1104  1304 D EGL_emulation: app_time_stats: avg=1952.65ms min=1.03ms max=69763.74ms count=36
+05-23 09:40:58.084   549   660 I ImeTracker: com.android.launcher3:fbbe17bb: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+05-23 09:40:58.084   549   660 I ImeTracker: com.android.launcher3:fbbe17bb: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 09:40:58.096   549   575 W ActivityTaskManager: Unable to send transaction to client proc ru.cisgame.colorquarter.debug: no app thread
+05-23 09:40:58.236   359  2109 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:58.246   359  2110 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:58.354   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:58.355   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:58.355   549   822 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:58.397   782   865 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#4) android.os.BinderProxy@a89d0f3@0
+05-23 09:40:58.398   549   571 V WindowManager: Finish Transition (#4): created at 05-23 09:40:58.025 collect-started=0.019ms request-sent=0.054ms started=2.719ms ready=2.714ms sent=14.151ms finished=373.37ms
+05-23 09:40:58.400   549   822 E IPCThreadState: Binder transaction failure. id: 59798, BR_*: 29189, error: -22 (Invalid argument)
+05-23 09:40:58.400   549   822 W ActivityManager: pid 549 system sent binder code 7 with flags 1 to frozen apps and got error -32
+05-23 09:40:58.400   549   822 W WindowManager: Exception thrown during dispatchAppVisibility Window{d4ee963 u0 ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity EXITING}
+05-23 09:40:58.400   549   822 W WindowManager: android.os.DeadObjectException
+05-23 09:40:58.400   549   822 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+05-23 09:40:58.400   549   822 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+05-23 09:40:58.400   549   822 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:553)
+05-23 09:40:58.400   549   822 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3253)
+05-23 09:40:58.400   549   822 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1289)
+05-23 09:40:58.400   549   822 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:403)
+05-23 09:40:58.400   549   822 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:7166)
+05-23 09:40:58.400   549   822 W WindowManager: 	at com.android.server.wm.ActivityRecord.postApplyAnimation(ActivityRecord.java:5881)
+05-23 09:40:58.400   549   822 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5823)
+05-23 09:40:58.400   549   822 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1286)
+05-23 09:40:58.400   549   822 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:937)
+05-23 09:40:58.400   549   822 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:494)
+05-23 09:40:58.400   549   822 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:289)
+05-23 09:40:58.400   549   822 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:204)
+05-23 09:40:58.400   549   822 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1500)
+05-23 09:40:58.400   549   822 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1444)
+05-23 09:40:58.400   549   822 W Process : Unable to open /proc/1961/status
+05-23 09:40:58.401   822   822 I binder  : 822:549 cannot find target node
+05-23 09:40:58.401   822   822 I binder  : 549:822 transaction async to 0:0 failed 59798/29189/-22, size 64-0 line 3265
+05-23 09:40:58.404   782   865 V WindowManagerShell: Track 0 became idle
+05-23 09:40:58.404   782   865 V WindowManagerShell: All active transition animations finished
+05-23 09:40:58.404   549   750 W UserManagerService: Requested status bar icon for non-badged user 0
+05-23 09:40:58.404   549   822 W UserManagerService: Requested status bar icon for non-badged user 0
+05-23 09:40:58.405  1104  1104 I TopTaskTracker: onTaskRemoved: taskId=17
+05-23 09:40:58.405  1104  1104 I TopTaskTracker: onTaskRemoved: taskId=17
+05-23 09:40:58.407   549  2153 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+05-23 09:40:58.407   549  2153 I EGL_emulation: Opening libGLESv2_emulation.so
+05-23 09:40:58.409   549  2153 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 09:40:58.409   549  2153 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-23 09:40:58.416  1104  1104 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 9180, 7508171, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME_FALLBACK>
+05-23 09:40:58.444   406   406 E BpTransactionCompletedListener: Failed to transact (-32)
+05-23 09:40:58.479   549   573 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+05-23 09:40:58.479   549   573 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+05-23 09:40:58.923   359  2117 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:58.923   359  2115 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:58.923   359  2114 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:58.923   359  2116 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:40:59.064   549   822 W ActivityTaskManager: callingPackage for (uid=2000, pid=2156) has no WPC
+05-23 09:40:59.064   549   822 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+05-23 09:40:59.064   549   822 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10148, packageName = null, attributionTag = null, token = android.os.Binder@be284ca, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-23 09:40:59.064   549   822 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+05-23 09:40:59.064   549   822 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+05-23 09:40:59.066   549   822 V SplashScreenExceptionList: SplashScreen checking exception for package ru.cisgame.colorquarter.debug (target sdk:35) -> false
+05-23 09:40:59.067   549   822 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+05-23 09:40:59.067   782   865 V WindowManagerShell: Transition requested (#5): android.os.BinderProxy@414774 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=18 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity } baseActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} topActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} origActivity=null realActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} numActivities=1 lastActiveTime=113866 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@748f49d} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{3062d12 ru.cisgame.colorquarter.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 5 }
+05-23 09:40:59.067  1104  1104 W SplitSelectStateCtor: Missing session instanceIds
+05-23 09:40:59.067  1104  1104 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+05-23 09:40:59.068   782   865 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=294
+05-23 09:40:59.068   782   948 D SplashScreenView: Build android.window.SplashScreenView{948dce3 V.E...... ......ID 0,0-0,0}
+05-23 09:40:59.068   782   948 D SplashScreenView: Icon: view: android.widget.ImageView{1e566e0 V.ED..... ......I. 0,0-0,0 #1020504 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@5453d99 size: 504
+05-23 09:40:59.068   782   948 D SplashScreenView: Branding: view: android.view.View{496085e G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-23 09:40:59.069   549   574 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10148, packageName = null, attributionTag = null, token = android.os.Binder@be284ca, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-23 09:40:59.069  1104  1104 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=18, baseIntent=Intent { flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity }
+05-23 09:40:59.070   549   723 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+05-23 09:40:59.070   549   723 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10148 package ru.cisgame.colorquarter.debug isStopped false
+05-23 09:40:59.073   360   360 D Zygote  : Forked child process 2159
+05-23 09:40:59.074   549   582 I ActivityManager: Start proc 2159:ru.cisgame.colorquarter.debug/u0a148 for next-top-activity {ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity}
+05-23 09:40:59.078   406   406 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-23 09:40:59.079   549  1017 D CoreBackPreview: Window{bf20668 u0 Splash Screen ru.cisgame.colorquarter.debug}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@aad3a80, mPriority=0, mIsAnimationCallback=false}
+05-23 09:40:59.083   359   428 I netd    : tetherGetStats() -> {[]} <0.65ms>
+05-23 09:40:59.087   782   969 V WindowManagerShell: onTransitionReady(transaction=2357937045926)
+05-23 09:40:59.087   549   571 V WindowManager: Sent Transition (#5) createdAt=05-23 09:40:59.064 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=18 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity } baseActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} topActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} origActivity=null realActivity=ComponentInfo{ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity} numActivities=1 lastActiveTime=113866 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{be58775 Task{40d7e7c #18 type=standard A=10148:ru.cisgame.colorquarter.debug}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{97e830a ru.cisgame.colorquarter.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 5 }
+05-23 09:40:59.087   549   571 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-23 09:40:59.087   549   571 V WindowManager:     info={id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+05-23 09:40:59.087   549   571 V WindowManager:         {WCT{RemoteToken{be58775 Task{40d7e7c #18 type=standard A=10148:ru.cisgame.colorquarter.debug}}} m=OPEN f=NONE leash=Surface(name=Task=18)/@0x29518b9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+05-23 09:40:59.087   549   571 V WindowManager:         {WCT{RemoteToken{9132c71 Task{2b932ed #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x522bb00 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+05-23 09:40:59.087   549   571 V WindowManager:     ]}
+05-23 09:40:59.088   782   865 V WindowManagerShell: onTransitionReady (#5) android.os.BinderProxy@414774: {id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@6affec2} m=OPEN f=NONE leash=Surface(name=Task=18)/@0x3429c37 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@49ac4d3} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x87f75a4 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+05-23 09:40:59.088   782   865 V WindowManagerShell: Playing animation for (#5) android.os.BinderProxy@414774@0
+05-23 09:40:59.088   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@6de58d9
+05-23 09:40:59.088   782   865 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@c94229e
+05-23 09:40:59.088   782   865 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@1d3117f
+05-23 09:40:59.088   782   865 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@d6d554c
+05-23 09:40:59.088   782   865 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@c52a995
+05-23 09:40:59.088   782   865 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-23 09:40:59.088   782   865 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@d1bcaaa
+05-23 09:40:59.088   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@611469b
+05-23 09:40:59.089   782   865 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@6affec2} m=OPEN f=NONE leash=Surface(name=Task=18)/@0x3429c37 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@49ac4d3} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x87f75a4 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+05-23 09:40:59.089   782   865 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@fc07a38, appThread = android.app.IApplicationThread$Stub$Proxy@9814a11, debugName = QuickstepLaunchHome }}
+05-23 09:40:59.089   782   865 V WindowManagerShell:  Delegate animation for (#5) to null
+05-23 09:40:59.089   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@ac3e776
+05-23 09:40:59.089   782   865 V WindowManagerShell: start default transition animation, info = {id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@6affec2} m=OPEN f=NONE leash=Surface(name=Task=18)/@0x3429c37 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@49ac4d3} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x87f75a4 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+05-23 09:40:59.089   782   865 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@543bf09 animAttr=0x13 type=OPEN isEntrance=false
+05-23 09:40:59.090   549   822 W UserManagerService: Requested status bar icon for non-badged user 0
+05-23 09:40:59.090   782   865 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@c03450e animAttr=0x12 type=OPEN isEntrance=true
+05-23 09:40:59.090   782   865 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@ac3e776
+05-23 09:40:59.090  2159  2159 I orquarter.debug: Late-enabling -Xcheck:jni
+05-23 09:40:59.098   782   985 D EGL_emulation: app_time_stats: avg=103.45ms min=14.10ms max=899.21ms count=10
+05-23 09:40:59.099  2159  2159 I orquarter.debug: Using CollectorTypeCMC GC.
+05-23 09:40:59.114  1104  1304 D EGL_emulation: app_time_stats: avg=44.64ms min=10.43ms max=612.56ms count=24
+05-23 09:40:59.115  1104  1304 D EGL_emulation: app_time_stats: avg=57.20ms min=10.94ms max=768.84ms count=18
+05-23 09:40:59.116   411   451 I adbd    : jdwp connection from 2159
+05-23 09:40:59.119  2159  2159 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-23 09:40:59.136  2159  2159 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+05-23 09:40:59.136  2159  2159 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+05-23 09:40:59.137  2159  2159 W ziparchive: Unable to open '/data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/base.dm': No such file or directory
+05-23 09:40:59.137  2159  2159 W ziparchive: Unable to open '/data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/base.dm': No such file or directory
+05-23 09:40:59.301  2159  2159 D nativeloader: Configuring clns-7 for other apk /data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/lib/arm64:/data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/ru.cisgame.colorquarter.debug
+05-23 09:40:59.302  2159  2159 D CompatChangeReporter: Compat change id reported: 202956589; UID 10148; state: ENABLED
+05-23 09:40:59.306  2159  2159 V GraphicsEnvironment: Currently set values for:
+05-23 09:40:59.306  2159  2159 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-23 09:40:59.306  2159  2159 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-23 09:40:59.306  2159  2159 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+05-23 09:40:59.306  2159  2159 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+05-23 09:40:59.319  2159  2159 D CompatChangeReporter: Compat change id reported: 279646685; UID 10148; state: ENABLED
+05-23 09:40:59.342  2159  2159 D CompatChangeReporter: Compat change id reported: 309578419; UID 10148; state: ENABLED
+05-23 09:40:59.357   549   750 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:59.357   549   750 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:59.357   549   750 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:40:59.372  2159  2159 W HWUI    : Unknown dataspace 0
+05-23 09:40:59.379   782   865 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#5) android.os.BinderProxy@414774@0
+05-23 09:40:59.381   549   571 V WindowManager: Finish Transition (#5): created at 05-23 09:40:59.064 collect-started=0.016ms request-sent=2.126ms started=2.413ms ready=21.968ms sent=22.574ms finished=316.418ms
+05-23 09:40:59.382  1104  1104 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+05-23 09:40:59.382   782   865 V WindowManagerShell: Track 0 became idle
+05-23 09:40:59.383   782   865 V WindowManagerShell: All active transition animations finished
+05-23 09:40:59.388   549   822 W UserManagerService: Requested status bar icon for non-badged user 0
+05-23 09:40:59.389   549   822 W UserManagerService: Requested status bar icon for non-badged user 0
+05-23 09:40:59.484  2159  2159 W orquarter.debug: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+05-23 09:40:59.528  2159  2164 I orquarter.debug: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+05-23 09:40:59.583  2159  2159 D CompatChangeReporter: Compat change id reported: 270674727; UID 10148; state: ENABLED
+05-23 09:40:59.636  2159  2159 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+05-23 09:40:59.636  2159  2159 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+05-23 09:40:59.640   549   750 D CoreBackPreview: Window{345c2ba u0 ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5fd5086, mPriority=0, mIsAnimationCallback=false}
+05-23 09:40:59.681  2159  2174 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+05-23 09:40:59.681  2159  2174 I EGL_emulation: Opening libGLESv2_emulation.so
+05-23 09:40:59.685  2159  2174 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-23 09:40:59.685  2159  2174 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-23 09:40:59.692   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-23 09:40:59.692  2159  2174 I Gralloc4: mapper 4.x is not supported
+05-23 09:40:59.692   162   162 I servicemanager: Caller(pid=2159,uid=10148,sid=u:r:untrusted_app:s0:c148,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-23 09:40:59.770   549   571 W ziparchive: Unable to open '/data/app/~~so1xXhI1audDObUuVdRMbw==/ru.cisgame.colorquarter.debug-PfbnU5dJTXEXnMCuSVfP1Q==/base.dm': No such file or directory
+05-23 09:40:59.771   549   571 I ActivityTaskManager: Displayed ru.cisgame.colorquarter.debug/ru.cisgame.colorquarter.MainActivity for user 0: +706ms
+05-23 09:40:59.779  1104  1104 D BaseDepthController: setSurface:
+05-23 09:40:59.779  1104  1104 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-23 09:40:59.779  1104  1104 D BaseDepthController: 	mSurface: null
+05-23 09:40:59.780  1104  1104 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+05-23 09:40:59.780  1104  1104 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+05-23 09:40:59.780  1104  1104 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:453)
+05-23 09:40:59.780  1104  1104 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:444)
+05-23 09:40:59.780  1104  1104 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(StatefulActivity.java:119)
+05-23 09:40:59.781  1104  1104 D StatsLog: LAUNCHER_ONSTOP
+05-23 09:40:59.781   549   750 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+05-23 09:40:59.798   549   660 I ImeTracker: ru.cisgame.colorquarter.debug:e180b7b5: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+05-23 09:40:59.798   549   660 I ImeTracker: ru.cisgame.colorquarter.debug:e180b7b5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-23 09:41:00.132   782   942 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8b64c6a
+05-23 09:41:00.132   549   750 W InputManager-JNI: Input channel object 'bf20668 Splash Screen ru.cisgame.colorquarter.debug (client)' was disposed without first being removed with the input manager!
+05-23 09:41:00.132   549  1017 D CoreBackPreview: Window{bf20668 u0 Splash Screen ru.cisgame.colorquarter.debug EXITING}: Setting back callback null
+05-23 09:41:00.142   359   428 I netd    : tetherGetStats() -> {[]} <0.42ms>
+05-23 09:41:00.183   782   942 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 10315, 3110948, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-23 09:41:00.183   782   942 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 10337, 2497115, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-23 09:41:00.183   782   942 W FrameTracker: Missed SF frame:PREDICTION_ERROR, 10448, 2485119, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-23 09:41:00.183   782   942 W FrameTracker: Missing HWUI jank callback for vsyncId: 10650, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+05-23 09:41:00.183   782   915 V PerfettoTrigger: Not triggering com.android.telemetry.interaction-jank-monitor-39 - not enough time since last trigger
+05-23 09:41:00.360   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:00.361   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:00.361   549  1017 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:01.122  2186  2186 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-23 09:41:01.125  2186  2186 I AndroidRuntime: Using default boot image
+05-23 09:41:01.125  2186  2186 I AndroidRuntime: Leaving lock profiling enabled
+05-23 09:41:01.126  2186  2186 I app_process: Core platform API reporting enabled, enforcing=false
+05-23 09:41:01.126  2186  2186 I app_process: Using CollectorTypeCMC GC.
+05-23 09:41:01.154  2186  2186 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+05-23 09:41:01.158  2186  2186 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:41:01.158  2186  2186 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+05-23 09:41:01.158  2186  2186 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+05-23 09:41:01.158  2186  2186 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:41:01.159  2186  2186 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+05-23 09:41:01.160  2186  2186 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+05-23 09:41:01.160  2186  2186 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+05-23 09:41:01.167  2186  2186 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-23 09:41:01.168  2186  2186 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-23 09:41:01.169  2186  2186 D UiAutomationConnection: Created on user UserHandle{0}
+05-23 09:41:01.169  2186  2186 I UiAutomation: Initialized for user 0 on display 0
+05-23 09:41:01.169  2186  2186 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+05-23 09:41:01.170   549  1017 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+05-23 09:41:01.170   549  1017 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+05-23 09:41:01.170   549  1017 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:41:01.171   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.171   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.171   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.171  2186  2197 V UiAutomation: Init UiAutomation@584d4d4[id=6, displayId=0, flags=0]
+05-23 09:41:01.171   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.171   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.171   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.171   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.171   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.172   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.172   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+05-23 09:41:01.172   549   818 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:41:01.173   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.173   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.173   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.173   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.173   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.173   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:01.367   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:01.367   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:01.368   549  1841 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:01.927   359  2139 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:01.928   359  2140 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:02.264  2186  2186 W AccessibilityNodeInfoDumper: Fetch time: 84ms
+05-23 09:41:02.265   549  1841 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+05-23 09:41:02.265   549  1841 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+05-23 09:41:02.266   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:02.266   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:02.266   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:02.266   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:02.266   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:02.266   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:02.266   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:02.266   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:02.266   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+05-23 09:41:02.266   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+05-23 09:41:02.267  2186  2186 D AndroidRuntime: Shutting down VM
+05-23 09:41:02.370   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:02.370   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:02.371   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:02.411   549  1254 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+05-23 09:41:03.158  2202  2202 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-23 09:41:03.158  2202  2202 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+05-23 09:41:03.161   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-23 09:41:03.161  2202  2203 I Gralloc4: mapper 4.x is not supported
+05-23 09:41:03.162   162   162 I servicemanager: Caller(pid=2202,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+05-23 09:41:03.242   359  2109 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:03.242   359  2109 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:41:03.252   359  2110 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:03.252   359  2110 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:41:03.252   549   726 W SntpClient: Unknown host: time.android.com
+05-23 09:41:03.252   549   726 D SntpClient: request time failed
+05-23 09:41:03.375   549   563 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:03.375   549   563 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:03.376   549   563 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:03.933   359  2116 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:03.934   359  2115 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:03.934   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:41:03.934   359  2117 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:03.934   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:41:03.934   359  2114 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:03.934   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:41:03.934   864   864 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:41:03.934   864  2112 D NetworkMonitor/100: PROBE_DNS www.google.com 10021ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:41:03.940   864  2113 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 10027ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+05-23 09:41:03.942   359  2205 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:41:03.943   359  2206 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+05-23 09:41:03.943   359  2208 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:41:03.943   359  2207 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:41:03.943   359  2207 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:41:03.943   359  2209 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-23 09:41:03.943   359  2209 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:41:03.944   359  2210 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-23 09:41:03.945   359  2208 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:41:03.946   359  2210 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+05-23 09:41:04.380   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:04.381   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:04.382   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:05.178  2159  2211 D ProfileInstaller: Installing profile for ru.cisgame.colorquarter.debug
+05-23 09:41:05.384   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:05.384   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:05.385   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:06.387   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:06.388   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:06.389   549   564 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:06.933   359  2140 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:06.933   359  2140 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:41:06.933   359  2139 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:06.933   359  2139 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:41:06.934   864  2111 D NetworkMonitor/100: PROBE_FALLBACK http://play.googleapis.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+05-23 09:41:07.396   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:07.397   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:07.398   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:08.050   549   639 D ActivityManager: freezing 1259 android.process.acore
+05-23 09:41:08.053   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+05-23 09:41:08.053   549   696 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+05-23 09:41:08.053   549   696 D InetDiagMessage: Destroyed live tcp sockets for uids={10064} in 0ms
+05-23 09:41:08.401   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:08.402   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:08.402   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:08.947   359  2208 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:08.949   359  2207 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:08.949   359  2209 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:08.949   359  2210 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:09.406   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:09.407   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:09.408   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:10.417   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:10.417   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:10.418   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:11.420   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:11.420   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:11.420   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:12.424   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:12.425   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:12.425   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:13.431   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:13.432   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:13.432   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:13.960   359  2208 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:13.960   359  2207 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:13.960   359  2207 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:41:13.960   359  2208 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:41:13.960   359  2209 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:13.960   359  2209 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:41:13.960   359  2210 I resolv  : res_nsend: used send_dg 0 terrno: 110
+05-23 09:41:13.960   359  2210 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+05-23 09:41:13.960   864  2113 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "connectivitycheck.gstatic.com": No address associated with hostname
+05-23 09:41:13.961   864  2112 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+05-23 09:41:13.961   864  2111 D NetworkMonitor/100: isCaptivePortal: isSuccessful()=false isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=20048ms
+05-23 09:41:13.961   549   696 D ConnectivityService: [100 CELLULAR] validation failed
+05-23 09:41:14.435   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:14.435   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:14.436   549   818 W BestClock: java.time.DateTimeException: Missing network time fix
+05-23 09:41:15.145   167   167 I logd    : logdr: UID=2000 GID=2000 PID=2212 n tail=0 logMask=10 pid=0 start=0ns deadline=0ns

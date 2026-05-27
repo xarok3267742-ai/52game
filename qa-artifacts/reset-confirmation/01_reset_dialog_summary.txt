@@ -1,0 +1,7 @@
+FrameLayout id=android:id/content bounds=[120,868][960,1468]
+  TextView text="Сбросить прогресс?" bounds=[183,931][776,1015]
+  TextView text="Будут удалены пройденные уровни и лучшие результаты. Настройки приложения останутся без изменений." bounds=[183,1057][897,1216]
+  View flags=clickable,focusable bounds=[459,1280][651,1406]
+    TextView text="Отмена" bounds=[491,1319][619,1367]
+  View flags=clickable,focusable bounds=[672,1280][897,1406]
+    TextView text="Сбросить" bounds=[704,1319][865,1367]

@@ -1,0 +1,8 @@
+image (1080, 2160) bytes 122007
+Тихий двор FOUND
+Ходы 0 FOUND
+Ост. 8 FOUND
+Лимит 8 FOUND
+Подсказка FOUND
+Палитра цветов FOUND
+crash_bytes 0
